@@ -1,0 +1,335 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Composer-sym.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+//#define PROVERSION 1
+
+16001 DIALOG  34, 40, 427, 228
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+#if PROVERSION
+CAPTION "HVC Color Composer - Professional Edition"
+#else
+CAPTION "HVC Color Composer - Standard Edition"
+#endif
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,359,17,61,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,359,34,61,14
+    PUSHBUTTON      "Color Libraries",IDC_CUSTOM_BUTTON,359,53,61,14
+    EDITTEXT        IDC_HSB_H_TEXT,245,78,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_HSB_S_TEXT,245,94,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_HSB_B_TEXT,245,110,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_RGB_R_TEXT,245,130,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_RGB_G_TEXT,245,162,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_RGB_B_TEXT,245,146,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_LAB_L_TEXT,308,78,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_LAB_A_TEXT,308,94,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_LAB_B_TEXT,308,110,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_CMYK_C_TEXT,308,130,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_CMYK_M_TEXT,308,146,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_CMYK_Y_TEXT,308,162,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_CMYK_K_TEXT,308,177,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_HVC_H_TEXT,374,146,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_HVC_V_TEXT,374,162,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_HVC_C_TEXT,374,177,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_HVC_MUNSELL_H_TEXT,374,146,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HVC_MUNSELL_V_TEXT,374,162,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HVC_MUNSELL_C_TEXT,374,177,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RAW_COLOR_TEXT,226,177,45,14
+    CONTROL         "H:",IDC_HSB_H_RADIO,"Button",BS_AUTORADIOBUTTON,221,80,
+                    21,10
+    CONTROL         "S:",IDC_HSB_S_RADIO,"Button",BS_AUTORADIOBUTTON,221,96,
+                    21,10
+    CONTROL         "B:",IDC_HSB_B_RADIO,"Button",BS_AUTORADIOBUTTON,221,112,
+                    21,10
+    CONTROL         "R:",IDC_RGB_R_RADIO,"Button",BS_AUTORADIOBUTTON,221,131,
+                    21,10
+    CONTROL         "G:",IDC_RGB_G_RADIO,"Button",BS_AUTORADIOBUTTON,221,147,
+                    21,10
+    CONTROL         "B:",IDC_RGB_B_RADIO,"Button",BS_AUTORADIOBUTTON,221,163,
+                    21,10
+    CONTROL         "L:",IDC_LAB_L_RADIO,"Button",BS_AUTORADIOBUTTON,288,79,
+                    20,10
+    CONTROL         "a:",IDC_LAB_A_RADIO,"Button",BS_AUTORADIOBUTTON,288,95,
+                    20,10
+    CONTROL         "b:",IDC_LAB_B_RADIO,"Button",BS_AUTORADIOBUTTON,288,111,
+                    20,10
+    CONTROL         "H:",IDC_HVC_H_RADIO,"Button",BS_AUTORADIOBUTTON,353,147,
+                    21,10
+    CONTROL         "V:",IDC_HVC_V_RADIO,"Button",BS_AUTORADIOBUTTON,353,163,
+                    21,10
+    CONTROL         "C:",IDC_HVC_C_RADIO,"Button",BS_AUTORADIOBUTTON,353,179,
+                    21,10
+    CONTROL         "Only Web Colors",IDC_ONLY_WEB_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,178,93,10
+    CONTROL         "Munsell Notation",IDC_MUNSELL_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,352,133,71,8
+                    
+#if PROVERSION
+    CONTROL         MASTER_COLORS_BITMAP_PRO,IDC_MASTER_COLORS_LOGO,"Static",SS_BITMAP,350,72,70,34
+#else
+    CONTROL         MASTER_COLORS_BITMAP,IDC_MASTER_COLORS_LOGO,"Static",SS_BITMAP,350,72,70,34
+#endif
+    
+    PUSHBUTTON      "Purchase",IDC_PURCHASE_BUTTON,359,111,61,15
+
+#if PROVERSION
+    CONTROL         "",IDC_PALETTE_SCROLLBAR,"ADM Scrollbar Type",0x0,417,228,10,103,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Create Palette",IDC_CREATE_PALETTE_BUTTON,359,210,61,12
+#else
+    CONTROL         "",IDC_PALETTE_SCROLLBAR,"ADM Scrollbar Type",0x0,417,228,10,103,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Create Palette",IDC_CREATE_PALETTE_BUTTON,137,205,73,12
+#endif
+
+    LTEXT           "#",IDC_RAW_COLOR_STATIC,214,180,8,8,NOT WS_GROUP,
+                    WS_EX_RIGHT
+    LTEXT           "�",IDC_HSB_H_STATIC,272,80,13,8
+    LTEXT           "%",IDC_HSB_S_STATIC,272,97,13,8
+    LTEXT           "%",IDC_HSB_B_STATIC,272,112,13,8
+    LTEXT           "�",IDC_HVC_H_STATIC,401,147,13,8
+    LTEXT           "%",IDC_HVC_V_STATIC,401,164,13,8
+    LTEXT           "%",IDC_HVC_C_STATIC,401,179,13,8
+    LTEXT           "%",IDC_CMYK_C_STATIC,335,132,8,8
+    LTEXT           "%",IDC_CMYK_M_STATIC,335,148,8,8
+    LTEXT           "%",IDC_CMYK_Y_STATIC,335,165,8,8
+    LTEXT           "%",IDC_CMYK_K_STATIC,335,180,8,8
+    ICON            "",IDC_HELP_BUTTON,378,108,20,20
+    LTEXT           "Quick Swatches",IDC_QUICK_SWATCHES_STATIC,294,17,59,8
+    LTEXT           "C:",IDC_CMYK_C_LABEL,298,131,8,8
+    LTEXT           "M:",IDC_CMYK_M_LABEL,298,147,8,8
+    LTEXT           "Y:",IDC_CMYK_Y_LABEL,298,163,8,8
+    LTEXT           "K:",IDC_CMYK_K_LABEL,298,179,8,8
+    LTEXT           "Clicks remaining:",IDC_CLICK_COUNT_STATIC,291,5,67,9
+    LTEXT           "0",IDC_CLICK_COUNT,357,5,16,8
+    LTEXT           "Select a Color:",IDC_SELECT_STATIC,8,10,75,8
+
+#if PROVERSION
+    LTEXT           "20",IDC_CONTRAST,53,212,15,8
+    LTEXT           "Contrast:",IDC_CONTRAST_STATIC,53,198,41,8
+//    LTEXT           "Steps",IDC_CONTRAST_STEPS_STATIC,69,212,32,8
+#else
+    LTEXT           "20",IDC_CONTRAST,268,212,15,8
+    LTEXT           "Contrast:",IDC_CONTRAST_STATIC,268,200,41,8
+    LTEXT           "Steps",IDC_CONTRAST_STEPS_STATIC,284,212,32,8
+#endif
+
+    CONTROL         "",IDC_COLOR_FLAG,"ADM User Type",0x0,7,21,175,150
+    CONTROL         "",IDC_HUE_SLIDER,"ADM User Type",0x0,184,21,30,150
+    CONTROL         "",IDC_COLORDISPLAY,"ADM User Type",0x0,221,21,51,47
+    CONTROL         "",IDC_WARN_HVC,"ADM User Type",0x0,232,9,10,9
+    CONTROL         "",IDC_WARN_CMYK,"ADM User Type",0x0,276,31,10,9
+    CONTROL         "",IDC_WARN_RGB,"ADM User Type",0x0,276,58,10,9
+    CONTROL         102,IDC_WARN_HVC_ICON,"Static",SS_BITMAP,221,9,10,9
+    CONTROL         104,IDC_WARN_CMYK_ICON,"Static",SS_BITMAP,276,21,10,9
+    CONTROL         103,IDC_WARN_RGB_ICON,"Static",SS_BITMAP,276,48,10,9
+    CONTROL         "",IDC_QUICK_SWATCHES,"ADM User Type",0x0,295,27,58,40
+    CONTROL         "",IDC_1ST_SEPARATOR,"ADM User Type",0x0,0,192,438,6
+    CONTROL         "",IDC_1ST_TOGGLE,"ADM User Type",0x0,217,192,6,6
+    CONTROL         "",IDC_2ND_SEPARATOR,"ADM User Type",0x0,0,222,438,6
+    CONTROL         "",IDC_2ND_TOGGLE,"ADM User Type",0x0,218,222,6,6
+
+#if PROVERSION
+    CONTROL         "",IDC_PALETTE_SPLITSWATCH,"ADM User Type",0x0,7,199,44,22
+    CONTROL         "",IDC_PALETTE,"ADM User Type",0x0,0,228,417,103
+#else
+    CONTROL         "",IDC_PALETTE_SPLITSWATCH,"ADM User Type",0x0,219,199,44,22
+    CONTROL         "",IDC_PALETTE,"ADM User Type",0x0,0,228,417,103
+#endif
+END
+
+16002 DIALOG 0, 0, 329, 192
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Color Libraries"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,272,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,272,24,50,14
+    PUSHBUTTON      "Picker",IDC_PICKER,272,43,50,14
+
+    CONTROL         "Selected Color",IDC_SELECTION,"ADM User Type",WS_TABSTOP,180,23,51,47
+    
+    CONTROL         104,IDC_WARN_CMYK_ICON,"Static",SS_BITMAP,235,23,10,9
+    CONTROL         "cmyk warning color",IDC_WARN_CMYK,"ADM User Type",WS_TABSTOP,235,34,10,9
+    CONTROL         103,IDC_WARN_RGB_ICON,"Static",SS_BITMAP,235,50,10,9
+    CONTROL         "rgb safe color",IDC_WARN_RGB,"ADM User Type",WS_TABSTOP,235,61,10,9
+    
+	COMBOBOX        IDC_LIBRARY_POPUP,32,7,199,30, CBS_DROPDOWNLIST // | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    
+    LTEXT           "Book:",IDC_BOOK_LABEL,8,8,23,12
+    
+    RTEXT           "100%",IDC_CMYK_C_STATIC,193,81,25,14,0,WS_EX_RIGHT
+    RTEXT           "101%",IDC_CMYK_M_STATIC,193,94,25,14,0,WS_EX_RIGHT
+    RTEXT           "102%",IDC_CMYK_Y_STATIC,193,107,25,14,0,WS_EX_RIGHT
+    RTEXT           "103%",IDC_CMYK_K_STATIC,193,120,25,14,0,WS_EX_RIGHT
+    LTEXT           "C:",IDC_CMYK_C_LABEL,182,81,8,8
+    LTEXT           "M:",IDC_CMYK_M_LABEL,182,94,8,8
+    LTEXT           "Y:",IDC_CMYK_Y_LABEL,182,107,8,8
+    LTEXT           "K:",IDC_CMYK_K_LABEL,182,120,8,8
+    
+    LTEXT           "Type a color name to select it in the color list.", IDC_SEARCH_LABEL,181,146,90,20
+    
+    CONTROL         "Color list",  IDC_COLOR_LIST,  "ADM User Type",WS_TABSTOP,9,23,122,162
+    
+	CONTROL         "Color Slider",IDC_COLOR_SLIDER,"ADM User Type",WS_TABSTOP,142,22,26,164
+END
+
+
+16003 DIALOG 0, 0, 233, 302
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+#if PROVERSION
+CAPTION "About HVC Color Composer - Professional Edition"
+#else
+CAPTION "About HVC Color Composer - Standard Edition"
+#endif
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,177,284,50,14
+    LTEXT           "Owner Name",IDC_OWNER_NAME,35,210,189,14
+    EDITTEXT        IDC_ENTER_OWNER_NAME,35,210,189,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ENTER_PURCHASE_CODE,70,228,80,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Register",IDC_DO_REGISTER,166,228,59,14
+    PUSHBUTTON      "Master Colors",IDC_GOTO_MASTER_COLORS,7,284,88,14
+    PUSHBUTTON      "Purchase",IDC_GOTO_PURCHASE,105,284,65,14
+    CONTROL         105,IDC_COMPOSER_LOGO,"Static",SS_BITMAP,0,0,233,134
+
+#if PROVERSION
+    LTEXT           "HVC Color Composer - Professional v1.4.0\nCopyright 2004-2006 Master Colors",IDC_STATIC,7,135,217,20
+#else
+    LTEXT           "HVC Color Composer - Standard v1.4.0\nCopyright 2004-2006 Master Colors",IDC_STATIC,7,135,217,20
+#endif
+
+    LTEXT			"Project Manager\nLead Windows Engineer\nAdditional Development\nLibrary Programming"
+					,IDC_STATIC,7,155,118,50
+    LTEXT			"Andrew Hussie\nAlex Lelievre\nOrson Bushnell\nScott Wagner and\nAlex Lelievre"
+					,IDC_STATIC,126,155,117,50
+    LTEXT           "To activate the software, enter your name and purchase code, and click ""Register.""  Enter your name exactly as you typed it when you bought it.  If you don't have a purchase code, you may buy one by clicking ""Purchase.""",
+                    IDC_INSTRUCTIONS,7,247,214,34
+    LTEXT           "Purchase Code:",IDC_PURCHASE_CODE_LABEL,7,228,60,14
+    LTEXT           "Owner:",IDC_OWNER_NAME_LABEL,7,210,25,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "Composer-sym.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""Composer.pipl""\r\n"
+    "#include ""About.rc""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+MASTER_COLORS_BITMAP		BITMAP                  "MasterColorLogo.bmp"
+MASTER_COLORS_BITMAP_PRO    BITMAP                  "MasterColorLogoPro.bmp"
+WARN_HVC_BITMAP				BITMAP                  "HVCWarning.bmp"
+WARN_WEB_BITMAP				BITMAP                  "WebWarning.bmp"
+WARN_CMYK_BITMAP			BITMAP                  "CMYKWarning.bmp"
+COMPOSER_LOGO_BITMAP		BITMAP                  "ComposerLogo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,4,0,18
+ PRODUCTVERSION 1,4,0,18
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "This is a Color Picker for Adobe imaging products"
+            VALUE "CompanyName", "Master Colors LLC"
+            VALUE "FileDescription", "HVC Color Composer plugin"
+            VALUE "FileVersion", "1.4b5"
+            VALUE "InternalName", "Composer"
+            VALUE "LegalCopyright", "Copyright (C) 2006 Master Colors LLC"
+            VALUE "OriginalFilename", "HVC Composer.8bc"
+            VALUE "PrivateBuild", "5"
+            VALUE "ProductName", "HVC Color Composer"
+            VALUE "ProductVersion", "1.4b5"
+            VALUE "SpecialBuild", "beta"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "Composer.pipl"
+#include "About.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

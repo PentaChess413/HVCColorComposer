@@ -1,0 +1,1288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA8A68D0AE862200086CA36 /* Composer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A64D0AE862200086CA36 /* Composer.cpp */; };
+		FAA8A68E0AE862200086CA36 /* Composer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6110AE8621F0086CA36 /* Composer.h */; };
+		FAA8A68F0AE862200086CA36 /* Composer.r in Rez */ = {isa = PBXBuildFile; fileRef = FAA8A6830AE862200086CA36 /* Composer.r */; };
+		FAA8A6900AE862200086CA36 /* Scripting Common.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A60F0AE8621F0086CA36 /* Scripting Common.h */; };
+		FAA8A6920AE862200086CA36 /* Composer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6110AE8621F0086CA36 /* Composer.h */; };
+		FAA8A6930AE862200086CA36 /* Composer_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6120AE8621F0086CA36 /* Composer_UI.h */; };
+		FAA8A6940AE862200086CA36 /* Composer_UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A64E0AE862200086CA36 /* Composer_UI.cpp */; };
+		FAA8A6950AE862200086CA36 /* Dialog_Runner.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6130AE8621F0086CA36 /* Dialog_Runner.h */; };
+		FAA8A6960AE862200086CA36 /* Dialog_Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A64F0AE862200086CA36 /* Dialog_Runner.cpp */; };
+		FAA8A6970AE862200086CA36 /* Dialog_Creator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6140AE8621F0086CA36 /* Dialog_Creator.h */; };
+		FAA8A6980AE862200086CA36 /* Control_Runner.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6210AE8621F0086CA36 /* Control_Runner.h */; };
+		FAA8A6990AE862200086CA36 /* Control_Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6560AE862200086CA36 /* Control_Runner.cpp */; };
+		FAA8A69A0AE862200086CA36 /* Color_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6220AE8621F0086CA36 /* Color_Text_Display.h */; };
+		FAA8A69C0AE862200086CA36 /* ADM_Access.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6150AE8621F0086CA36 /* ADM_Access.h */; };
+		FAA8A69D0AE862200086CA36 /* ADM_Access.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6500AE862200086CA36 /* ADM_Access.cpp */; };
+		FAA8A6A10AE862200086CA36 /* Dialog_Runner_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6180AE8621F0086CA36 /* Dialog_Runner_Base.h */; };
+		FAA8A6A20AE862200086CA36 /* UInt8_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6230AE8621F0086CA36 /* UInt8_Text_Display.h */; };
+		FAA8A6A40AE862200086CA36 /* SInt8_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6240AE8621F0086CA36 /* SInt8_Text_Display.h */; };
+		FAA8A6A60AE862200086CA36 /* Percent_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6250AE8621F0086CA36 /* Percent_Text_Display.h */; };
+		FAA8A6A80AE862200086CA36 /* Hue_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6260AE8621F0086CA36 /* Hue_Text_Display.h */; };
+		FAA8A6AB0AE862200086CA36 /* Munsell_Value_Text_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6360AE862200086CA36 /* Munsell_Value_Text_Display.h */; };
+		FAA8A6AC0AE862200086CA36 /* Munsell_Value_Text_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6360AE862200086CA36 /* Munsell_Value_Text_Display.h */; };
+		FAA8A6AD0AE862200086CA36 /* Selected_Color.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6190AE8621F0086CA36 /* Selected_Color.h */; };
+		FAA8A6AE0AE862200086CA36 /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61A0AE8621F0086CA36 /* Helpers.h */; };
+		FAA8A6AF0AE862200086CA36 /* Raw_Text_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6370AE862200086CA36 /* Raw_Text_Display.h */; };
+		FAA8A6B00AE862200086CA36 /* Raw_Text_Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6670AE862200086CA36 /* Raw_Text_Display.cpp */; };
+		FAA8A6B10AE862200086CA36 /* Transformed_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6270AE8621F0086CA36 /* Transformed_Text_Display.h */; };
+		FAA8A6B30AE862200086CA36 /* HVC_Hue_Text_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6350AE862200086CA36 /* HVC_Hue_Text_Display.h */; };
+		FAA8A6B50AE862200086CA36 /* Custom_Draw_Control.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6280AE8621F0086CA36 /* Custom_Draw_Control.h */; };
+		FAA8A6B60AE862200086CA36 /* Control_Runner_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6290AE8621F0086CA36 /* Control_Runner_Base.h */; };
+		FAA8A6B70AE862200086CA36 /* Custom_Track_Control.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A62A0AE8621F0086CA36 /* Custom_Track_Control.h */; };
+		FAA8A6B80AE862200086CA36 /* Custom_Notify_Control.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A62B0AE8621F0086CA36 /* Custom_Notify_Control.h */; };
+		FAA8A6B90AE862200086CA36 /* Control_Creator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A62C0AE8621F0086CA36 /* Control_Creator.h */; };
+		FAA8A6BA0AE862200086CA36 /* Selected_Color_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6380AE862200086CA36 /* Selected_Color_Display.h */; };
+		FAA8A6BB0AE862200086CA36 /* Simple_Color_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A62D0AE8621F0086CA36 /* Simple_Color_Display.h */; };
+		FAA8A6BC0AE862200086CA36 /* HVC_RGB_Color_Pair.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61D0AE8621F0086CA36 /* HVC_RGB_Color_Pair.h */; };
+		FAA8A6BE0AE862200086CA36 /* Simple_Color_Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A65D0AE862200086CA36 /* Simple_Color_Display.cpp */; };
+		FAA8A6BF0AE862200086CA36 /* Custom_Draw_Control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A65E0AE862200086CA36 /* Custom_Draw_Control.cpp */; };
+		FAA8A6C00AE862200086CA36 /* Selected_Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6520AE862200086CA36 /* Selected_Color.cpp */; };
+		FAA8A6C10AE862200086CA36 /* Radio_Button_Group.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A62E0AE862200086CA36 /* Radio_Button_Group.h */; };
+		FAA8A6C20AE862200086CA36 /* Color_Plane_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6340AE862200086CA36 /* Color_Plane_Selector.h */; };
+		FAA8A6C30AE862200086CA36 /* Radio_Button_Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A65F0AE862200086CA36 /* Radio_Button_Group.cpp */; };
+		FAA8A6C40AE862200086CA36 /* Color_Plane_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6640AE862200086CA36 /* Color_Plane_Selector.cpp */; };
+		FAA8A6C50AE862200086CA36 /* Control_Interface.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A62F0AE862200086CA36 /* Control_Interface.h */; };
+		FAA8A6C60AE862200086CA36 /* Check_Box_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6600AE862200086CA36 /* Check_Box_Handler.cpp */; };
+		FAA8A6C70AE862200086CA36 /* Check_Box_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6300AE862200086CA36 /* Check_Box_Handler.h */; };
+		FAA8A6C80AE862200086CA36 /* Check_Box_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6300AE862200086CA36 /* Check_Box_Handler.h */; };
+		FAA8A6C90AE862200086CA36 /* Color_Flag_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6630AE862200086CA36 /* Color_Flag_Handler.cpp */; };
+		FAA8A6CA0AE862200086CA36 /* Color_Flag_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6330AE862200086CA36 /* Color_Flag_Handler.h */; };
+		FAA8A6CB0AE862200086CA36 /* Color_Flag_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6330AE862200086CA36 /* Color_Flag_Handler.h */; };
+		FAA8A6CC0AE862200086CA36 /* Copy_Bit_Map.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61B0AE8621F0086CA36 /* Copy_Bit_Map.h */; };
+		FAA8A6CD0AE862200086CA36 /* G_World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6530AE862200086CA36 /* G_World.cpp */; };
+		FAA8A6CE0AE862200086CA36 /* G_World.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61C0AE8621F0086CA36 /* G_World.h */; };
+		FAA8A6CF0AE862200086CA36 /* G_World.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61C0AE8621F0086CA36 /* G_World.h */; };
+		FAA8A6D10AE862200086CA36 /* Lab_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6400AE862200086CA36 /* Lab_Selector.h */; };
+		FAA8A6D30AE862200086CA36 /* Standard_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63D0AE862200086CA36 /* Standard_Selector.h */; };
+		FAA8A6D50AE862200086CA36 /* HVC_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63F0AE862200086CA36 /* HVC_Selector.h */; };
+		FAA8A6D70AE862200086CA36 /* HSB_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6410AE862200086CA36 /* HSB_Selector.h */; };
+		FAA8A6D90AE862200086CA36 /* RGB_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63E0AE862200086CA36 /* RGB_Selector.h */; };
+		FAA8A6DA0AE862200086CA36 /* Standard_X_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63A0AE862200086CA36 /* Standard_X_Selector.h */; };
+		FAA8A6DB0AE862200086CA36 /* Standard_Z_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63C0AE862200086CA36 /* Standard_Z_Selector.h */; };
+		FAA8A6DC0AE862200086CA36 /* RGB_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63E0AE862200086CA36 /* RGB_Selector.h */; };
+		FAA8A6DD0AE862200086CA36 /* HVC_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63F0AE862200086CA36 /* HVC_Selector.h */; };
+		FAA8A6DE0AE862200086CA36 /* Standard_Y_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63B0AE862200086CA36 /* Standard_Y_Selector.h */; };
+		FAA8A6DF0AE862200086CA36 /* Lab_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6400AE862200086CA36 /* Lab_Selector.h */; };
+		FAA8A6E00AE862200086CA36 /* HSB_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6410AE862200086CA36 /* HSB_Selector.h */; };
+		FAA8A6E10AE862200086CA36 /* Standard_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63D0AE862200086CA36 /* Standard_Selector.h */; };
+		FAA8A6E20AE862200086CA36 /* Color_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6390AE862200086CA36 /* Color_Selector.h */; };
+		FAA8A6E30AE862200086CA36 /* Color_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6690AE862200086CA36 /* Color_Selector.cpp */; };
+		FAA8A6E50AE862200086CA36 /* Hue_Slider_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6420AE862200086CA36 /* Hue_Slider_Handler.h */; };
+		FAA8A6E60AE862200086CA36 /* Hue_Slider_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6420AE862200086CA36 /* Hue_Slider_Handler.h */; };
+		FAA8A6E80AE862200086CA36 /* Quick_Colors_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6430AE862200086CA36 /* Quick_Colors_Handler.h */; };
+		FAA8A6E90AE862200086CA36 /* Quick_Colors_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6430AE862200086CA36 /* Quick_Colors_Handler.h */; };
+		FAA8A6EA0AE862200086CA36 /* Mac UI common.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = FAA8A6810AE862200086CA36 /* Mac UI common.rsrc */; };
+		FAA8A6EB0AE862200086CA36 /* Warning_Color_Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6710AE862200086CA36 /* Warning_Color_Display.cpp */; };
+		FAA8A6EC0AE862200086CA36 /* Warning_Color_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6440AE862200086CA36 /* Warning_Color_Display.h */; };
+		FAA8A6ED0AE862200086CA36 /* Warning_Color_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6440AE862200086CA36 /* Warning_Color_Display.h */; };
+		FAA8A6EE0AE862200086CA36 /* Split_Color_Display_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6720AE862200086CA36 /* Split_Color_Display_Handler.cpp */; };
+		FAA8A6EF0AE862200086CA36 /* Split_Color_Display_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6450AE862200086CA36 /* Split_Color_Display_Handler.h */; };
+		FAA8A6F00AE862200086CA36 /* Split_Color_Display_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6450AE862200086CA36 /* Split_Color_Display_Handler.h */; };
+		FAA8A6F10AE862200086CA36 /* Palette_Display_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6460AE862200086CA36 /* Palette_Display_Base.h */; };
+		FAA8A6F20AE862200086CA36 /* Palette_Display_Functions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6470AE862200086CA36 /* Palette_Display_Functions.h */; };
+		FAA8A6F30AE862200086CA36 /* Palette_Display_Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6730AE862200086CA36 /* Palette_Display_Base.cpp */; };
+		FAA8A6F40AE862200086CA36 /* Generate_Palette_Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6750AE862200086CA36 /* Generate_Palette_Base.cpp */; };
+		FAA8A6F50AE862200086CA36 /* Generate_Palette_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6490AE862200086CA36 /* Generate_Palette_Base.h */; };
+		FAA8A6F60AE862200086CA36 /* Generate_Palette_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6490AE862200086CA36 /* Generate_Palette_Base.h */; };
+		FAA8A6F70AE862200086CA36 /* Disclosure_Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6610AE862200086CA36 /* Disclosure_Triangle.cpp */; };
+		FAA8A6F80AE862200086CA36 /* Disclosure_Triangle.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6310AE862200086CA36 /* Disclosure_Triangle.h */; };
+		FAA8A6F90AE862200086CA36 /* Disclosure_Triangle.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6310AE862200086CA36 /* Disclosure_Triangle.h */; };
+		FAA8A6FB0AE862200086CA36 /* Libraries_UI.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A64B0AE862200086CA36 /* Libraries_UI.h */; };
+		FAA8A6FC0AE862200086CA36 /* Libraries_UI.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A64B0AE862200086CA36 /* Libraries_UI.h */; };
+		FAA8A7000AE862200086CA36 /* Switch_Drawing_Mode.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61F0AE8621F0086CA36 /* Switch_Drawing_Mode.h */; };
+		FAA8A7150AE862240086CA36 /* Palette_Display_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6480AE862200086CA36 /* Palette_Display_Handler.h */; };
+		FAA8A7350AE862250086CA36 /* Composer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A64D0AE862200086CA36 /* Composer.cpp */; };
+		FAA8A7360AE862250086CA36 /* Composer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6110AE8621F0086CA36 /* Composer.h */; };
+		FAA8A7370AE862250086CA36 /* Composer.r in Rez */ = {isa = PBXBuildFile; fileRef = FAA8A6830AE862200086CA36 /* Composer.r */; };
+		FAA8A7380AE862250086CA36 /* Scripting Common.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A60F0AE8621F0086CA36 /* Scripting Common.h */; };
+		FAA8A73A0AE862250086CA36 /* Composer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6110AE8621F0086CA36 /* Composer.h */; };
+		FAA8A73B0AE862250086CA36 /* Composer_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6120AE8621F0086CA36 /* Composer_UI.h */; };
+		FAA8A73C0AE862250086CA36 /* Composer_UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A64E0AE862200086CA36 /* Composer_UI.cpp */; };
+		FAA8A73D0AE862250086CA36 /* Mac UI.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = FAA8A6820AE862200086CA36 /* Mac UI.rsrc */; };
+		FAA8A73E0AE862250086CA36 /* Dialog_Runner.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6130AE8621F0086CA36 /* Dialog_Runner.h */; };
+		FAA8A73F0AE862250086CA36 /* Dialog_Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A64F0AE862200086CA36 /* Dialog_Runner.cpp */; };
+		FAA8A7400AE862250086CA36 /* Dialog_Creator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6140AE8621F0086CA36 /* Dialog_Creator.h */; };
+		FAA8A7410AE862250086CA36 /* Control_Runner.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6210AE8621F0086CA36 /* Control_Runner.h */; };
+		FAA8A7420AE862250086CA36 /* Control_Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6560AE862200086CA36 /* Control_Runner.cpp */; };
+		FAA8A7430AE862250086CA36 /* Color_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6220AE8621F0086CA36 /* Color_Text_Display.h */; };
+		FAA8A7450AE862250086CA36 /* ADM_Access.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6150AE8621F0086CA36 /* ADM_Access.h */; };
+		FAA8A7460AE862250086CA36 /* ADM_Access.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6500AE862200086CA36 /* ADM_Access.cpp */; };
+		FAA8A74A0AE862250086CA36 /* Dialog_Runner_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6180AE8621F0086CA36 /* Dialog_Runner_Base.h */; };
+		FAA8A74B0AE862250086CA36 /* UInt8_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6230AE8621F0086CA36 /* UInt8_Text_Display.h */; };
+		FAA8A74D0AE862250086CA36 /* SInt8_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6240AE8621F0086CA36 /* SInt8_Text_Display.h */; };
+		FAA8A74F0AE862250086CA36 /* Percent_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6250AE8621F0086CA36 /* Percent_Text_Display.h */; };
+		FAA8A7510AE862250086CA36 /* Hue_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6260AE8621F0086CA36 /* Hue_Text_Display.h */; };
+		FAA8A7530AE862250086CA36 /* Selected_Color.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6190AE8621F0086CA36 /* Selected_Color.h */; };
+		FAA8A7540AE862250086CA36 /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61A0AE8621F0086CA36 /* Helpers.h */; };
+		FAA8A7550AE862250086CA36 /* Raw_Text_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6370AE862200086CA36 /* Raw_Text_Display.h */; };
+		FAA8A7560AE862250086CA36 /* Raw_Text_Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6670AE862200086CA36 /* Raw_Text_Display.cpp */; };
+		FAA8A7570AE862250086CA36 /* Transformed_Text_Display.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6270AE8621F0086CA36 /* Transformed_Text_Display.h */; };
+		FAA8A7590AE862250086CA36 /* HVC_Hue_Text_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6350AE862200086CA36 /* HVC_Hue_Text_Display.h */; };
+		FAA8A75B0AE862250086CA36 /* Custom_Draw_Control.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6280AE8621F0086CA36 /* Custom_Draw_Control.h */; };
+		FAA8A75C0AE862250086CA36 /* Control_Runner_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6290AE8621F0086CA36 /* Control_Runner_Base.h */; };
+		FAA8A75D0AE862250086CA36 /* Custom_Track_Control.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A62A0AE8621F0086CA36 /* Custom_Track_Control.h */; };
+		FAA8A75E0AE862250086CA36 /* Custom_Notify_Control.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A62B0AE8621F0086CA36 /* Custom_Notify_Control.h */; };
+		FAA8A75F0AE862250086CA36 /* Control_Creator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A62C0AE8621F0086CA36 /* Control_Creator.h */; };
+		FAA8A7600AE862250086CA36 /* Selected_Color_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6380AE862200086CA36 /* Selected_Color_Display.h */; };
+		FAA8A7610AE862250086CA36 /* Simple_Color_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A62D0AE8621F0086CA36 /* Simple_Color_Display.h */; };
+		FAA8A7620AE862250086CA36 /* HVC_RGB_Color_Pair.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61D0AE8621F0086CA36 /* HVC_RGB_Color_Pair.h */; };
+		FAA8A7640AE862250086CA36 /* Simple_Color_Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A65D0AE862200086CA36 /* Simple_Color_Display.cpp */; };
+		FAA8A7650AE862250086CA36 /* Custom_Draw_Control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A65E0AE862200086CA36 /* Custom_Draw_Control.cpp */; };
+		FAA8A7660AE862250086CA36 /* Selected_Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6520AE862200086CA36 /* Selected_Color.cpp */; };
+		FAA8A7670AE862250086CA36 /* Radio_Button_Group.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A62E0AE862200086CA36 /* Radio_Button_Group.h */; };
+		FAA8A7680AE862250086CA36 /* Color_Plane_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6340AE862200086CA36 /* Color_Plane_Selector.h */; };
+		FAA8A7690AE862250086CA36 /* Radio_Button_Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A65F0AE862200086CA36 /* Radio_Button_Group.cpp */; };
+		FAA8A76A0AE862250086CA36 /* Color_Plane_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6640AE862200086CA36 /* Color_Plane_Selector.cpp */; };
+		FAA8A76B0AE862250086CA36 /* Control_Interface.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A62F0AE862200086CA36 /* Control_Interface.h */; };
+		FAA8A76C0AE862250086CA36 /* Check_Box_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6600AE862200086CA36 /* Check_Box_Handler.cpp */; };
+		FAA8A76D0AE862250086CA36 /* Check_Box_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6300AE862200086CA36 /* Check_Box_Handler.h */; };
+		FAA8A76E0AE862250086CA36 /* Check_Box_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6300AE862200086CA36 /* Check_Box_Handler.h */; };
+		FAA8A76F0AE862250086CA36 /* Color_Flag_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6630AE862200086CA36 /* Color_Flag_Handler.cpp */; };
+		FAA8A7700AE862250086CA36 /* Color_Flag_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6330AE862200086CA36 /* Color_Flag_Handler.h */; };
+		FAA8A7710AE862250086CA36 /* Color_Flag_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6330AE862200086CA36 /* Color_Flag_Handler.h */; };
+		FAA8A7720AE862250086CA36 /* Copy_Bit_Map.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61B0AE8621F0086CA36 /* Copy_Bit_Map.h */; };
+		FAA8A7730AE862250086CA36 /* G_World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6530AE862200086CA36 /* G_World.cpp */; };
+		FAA8A7740AE862250086CA36 /* G_World.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61C0AE8621F0086CA36 /* G_World.h */; };
+		FAA8A7750AE862250086CA36 /* G_World.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61C0AE8621F0086CA36 /* G_World.h */; };
+		FAA8A7770AE862250086CA36 /* Lab_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6400AE862200086CA36 /* Lab_Selector.h */; };
+		FAA8A7790AE862250086CA36 /* Standard_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63D0AE862200086CA36 /* Standard_Selector.h */; };
+		FAA8A77B0AE862250086CA36 /* HVC_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63F0AE862200086CA36 /* HVC_Selector.h */; };
+		FAA8A77D0AE862250086CA36 /* HSB_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6410AE862200086CA36 /* HSB_Selector.h */; };
+		FAA8A77F0AE862250086CA36 /* RGB_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63E0AE862200086CA36 /* RGB_Selector.h */; };
+		FAA8A7800AE862250086CA36 /* Standard_X_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63A0AE862200086CA36 /* Standard_X_Selector.h */; };
+		FAA8A7810AE862250086CA36 /* Standard_Z_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63C0AE862200086CA36 /* Standard_Z_Selector.h */; };
+		FAA8A7820AE862250086CA36 /* RGB_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63E0AE862200086CA36 /* RGB_Selector.h */; };
+		FAA8A7830AE862250086CA36 /* HVC_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63F0AE862200086CA36 /* HVC_Selector.h */; };
+		FAA8A7840AE862250086CA36 /* Standard_Y_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63B0AE862200086CA36 /* Standard_Y_Selector.h */; };
+		FAA8A7850AE862250086CA36 /* Lab_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6400AE862200086CA36 /* Lab_Selector.h */; };
+		FAA8A7860AE862250086CA36 /* HSB_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6410AE862200086CA36 /* HSB_Selector.h */; };
+		FAA8A7870AE862250086CA36 /* Standard_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A63D0AE862200086CA36 /* Standard_Selector.h */; };
+		FAA8A7880AE862250086CA36 /* Color_Selector.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6390AE862200086CA36 /* Color_Selector.h */; };
+		FAA8A7890AE862250086CA36 /* Color_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6690AE862200086CA36 /* Color_Selector.cpp */; };
+		FAA8A78B0AE862250086CA36 /* Hue_Slider_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6420AE862200086CA36 /* Hue_Slider_Handler.h */; };
+		FAA8A78C0AE862250086CA36 /* Hue_Slider_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6420AE862200086CA36 /* Hue_Slider_Handler.h */; };
+		FAA8A78E0AE862250086CA36 /* Quick_Colors_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6430AE862200086CA36 /* Quick_Colors_Handler.h */; };
+		FAA8A78F0AE862250086CA36 /* Quick_Colors_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6430AE862200086CA36 /* Quick_Colors_Handler.h */; };
+		FAA8A7900AE862250086CA36 /* Mac UI common.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = FAA8A6810AE862200086CA36 /* Mac UI common.rsrc */; };
+		FAA8A7910AE862250086CA36 /* Warning_Color_Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6710AE862200086CA36 /* Warning_Color_Display.cpp */; };
+		FAA8A7920AE862250086CA36 /* Warning_Color_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6440AE862200086CA36 /* Warning_Color_Display.h */; };
+		FAA8A7930AE862250086CA36 /* Warning_Color_Display.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6440AE862200086CA36 /* Warning_Color_Display.h */; };
+		FAA8A7940AE862250086CA36 /* Split_Color_Display_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6720AE862200086CA36 /* Split_Color_Display_Handler.cpp */; };
+		FAA8A7950AE862250086CA36 /* Split_Color_Display_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6450AE862200086CA36 /* Split_Color_Display_Handler.h */; };
+		FAA8A7960AE862250086CA36 /* Split_Color_Display_Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6450AE862200086CA36 /* Split_Color_Display_Handler.h */; };
+		FAA8A7970AE862250086CA36 /* Palette_Display_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6460AE862200086CA36 /* Palette_Display_Base.h */; };
+		FAA8A7980AE862250086CA36 /* Palette_Display_Functions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6470AE862200086CA36 /* Palette_Display_Functions.h */; };
+		FAA8A7990AE862250086CA36 /* Palette_Display_Handler.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A6480AE862200086CA36 /* Palette_Display_Handler.h */; };
+		FAA8A79A0AE862250086CA36 /* Palette_Display_Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6730AE862200086CA36 /* Palette_Display_Base.cpp */; };
+		FAA8A79C0AE862250086CA36 /* Generate_Palette_Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6750AE862200086CA36 /* Generate_Palette_Base.cpp */; };
+		FAA8A79D0AE862250086CA36 /* Generate_Palette_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6490AE862200086CA36 /* Generate_Palette_Base.h */; };
+		FAA8A79E0AE862250086CA36 /* Generate_Palette_Base.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6490AE862200086CA36 /* Generate_Palette_Base.h */; };
+		FAA8A79F0AE862250086CA36 /* Disclosure_Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8A6610AE862200086CA36 /* Disclosure_Triangle.cpp */; };
+		FAA8A7A00AE862250086CA36 /* Disclosure_Triangle.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6310AE862200086CA36 /* Disclosure_Triangle.h */; };
+		FAA8A7A10AE862250086CA36 /* Disclosure_Triangle.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A6310AE862200086CA36 /* Disclosure_Triangle.h */; };
+		FAA8A7A30AE862250086CA36 /* Libraries_UI.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A64B0AE862200086CA36 /* Libraries_UI.h */; };
+		FAA8A7A40AE862250086CA36 /* Libraries_UI.h in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A64B0AE862200086CA36 /* Libraries_UI.h */; };
+		FAA8A7A80AE862250086CA36 /* Switch_Drawing_Mode.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A61F0AE8621F0086CA36 /* Switch_Drawing_Mode.h */; };
+		FAA8A8140AE863F90086CA36 /* includes in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A7EE0AE863F90086CA36 /* includes */; };
+		FAA8A8150AE863F90086CA36 /* includes in Resources */ = {isa = PBXBuildFile; fileRef = FAA8A7EE0AE863F90086CA36 /* includes */; };
+		FAA8A92D0AE872CB0086CA36 /* HVCComposer.pch in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A92C0AE872CB0086CA36 /* HVCComposer.pch */; };
+		FAA8A92E0AE872CB0086CA36 /* HVCComposer.pch in Headers */ = {isa = PBXBuildFile; fileRef = FAA8A92C0AE872CB0086CA36 /* HVCComposer.pch */; };
+		FAA8AB550AE94FEE0086CA36 /* DynaArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB540AE94FEE0086CA36 /* DynaArray.h */; };
+		FAA8AB560AE94FEE0086CA36 /* DynaArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB540AE94FEE0086CA36 /* DynaArray.h */; };
+		FAA8AB590AE950050086CA36 /* FastAlloc.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB570AE950050086CA36 /* FastAlloc.h */; };
+		FAA8AB5A0AE950050086CA36 /* FastAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB580AE950050086CA36 /* FastAlloc.cpp */; };
+		FAA8AB5B0AE950050086CA36 /* FastAlloc.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB570AE950050086CA36 /* FastAlloc.h */; };
+		FAA8AB5C0AE950050086CA36 /* FastAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB580AE950050086CA36 /* FastAlloc.cpp */; };
+		FAA8AB5E0AE9502E0086CA36 /* MCColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB5D0AE9502E0086CA36 /* MCColor.cpp */; };
+		FAA8AB5F0AE9502E0086CA36 /* MCColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB5D0AE9502E0086CA36 /* MCColor.cpp */; };
+		FAA8AB650AE9504E0086CA36 /* MCEditText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB640AE9504E0086CA36 /* MCEditText.cpp */; };
+		FAA8AB660AE9504E0086CA36 /* MCEditText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB640AE9504E0086CA36 /* MCEditText.cpp */; };
+		FAA8AB6C0AE950670086CA36 /* MCLicense.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB670AE950670086CA36 /* MCLicense.cpp */; };
+		FAA8AB6D0AE950670086CA36 /* MCSystemRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB680AE950670086CA36 /* MCSystemRegistry.cpp */; };
+		FAA8AB6E0AE950670086CA36 /* Run_About.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB690AE950670086CA36 /* Run_About.cpp */; };
+		FAA8AB6F0AE950670086CA36 /* MCRangeSelector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB6A0AE950670086CA36 /* MCRangeSelector.cpp */; };
+		FAA8AB700AE950670086CA36 /* MCPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB6B0AE950670086CA36 /* MCPrefs.cpp */; };
+		FAA8AB710AE950670086CA36 /* MCLicense.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB670AE950670086CA36 /* MCLicense.cpp */; };
+		FAA8AB720AE950670086CA36 /* MCSystemRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB680AE950670086CA36 /* MCSystemRegistry.cpp */; };
+		FAA8AB730AE950670086CA36 /* Run_About.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB690AE950670086CA36 /* Run_About.cpp */; };
+		FAA8AB740AE950670086CA36 /* MCRangeSelector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB6A0AE950670086CA36 /* MCRangeSelector.cpp */; };
+		FAA8AB750AE950670086CA36 /* MCPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB6B0AE950670086CA36 /* MCPrefs.cpp */; };
+		FAA8AB770AE950860086CA36 /* RVNameField.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB760AE950860086CA36 /* RVNameField.h */; };
+		FAA8AB780AE950860086CA36 /* RVNameField.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB760AE950860086CA36 /* RVNameField.h */; };
+		FAA8AB7C0AE9509F0086CA36 /* SException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB790AE9509F0086CA36 /* SException.cpp */; };
+		FAA8AB7D0AE9509F0086CA36 /* SpDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB7A0AE9509F0086CA36 /* SpDebug.cpp */; };
+		FAA8AB7E0AE9509F0086CA36 /* SpDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB7B0AE9509F0086CA36 /* SpDebug.h */; };
+		FAA8AB7F0AE9509F0086CA36 /* SException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB790AE9509F0086CA36 /* SException.cpp */; };
+		FAA8AB800AE9509F0086CA36 /* SpDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB7A0AE9509F0086CA36 /* SpDebug.cpp */; };
+		FAA8AB810AE9509F0086CA36 /* SpDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB7B0AE9509F0086CA36 /* SpDebug.h */; };
+		FAA8AB840AE950B40086CA36 /* SpError.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB820AE950B40086CA36 /* SpError.h */; };
+		FAA8AB850AE950B40086CA36 /* SpTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB830AE950B40086CA36 /* SpTypes.h */; };
+		FAA8AB860AE950B40086CA36 /* SpError.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB820AE950B40086CA36 /* SpError.h */; };
+		FAA8AB870AE950B40086CA36 /* SpTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AB830AE950B40086CA36 /* SpTypes.h */; };
+		FAA8AB9A0AE952280086CA36 /* MCColorSwatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB990AE952280086CA36 /* MCColorSwatch.cpp */; };
+		FAA8AB9B0AE952280086CA36 /* MCColorSwatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB990AE952280086CA36 /* MCColorSwatch.cpp */; };
+		FAA8AB9F0AE9523A0086CA36 /* MCSortFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB9C0AE9523A0086CA36 /* MCSortFrame.cpp */; };
+		FAA8ABA00AE9523A0086CA36 /* MCDualColorSwatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB9D0AE9523A0086CA36 /* MCDualColorSwatch.cpp */; };
+		FAA8ABA10AE9523A0086CA36 /* MCIcon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB9E0AE9523A0086CA36 /* MCIcon.cpp */; };
+		FAA8ABA20AE9523A0086CA36 /* MCSortFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB9C0AE9523A0086CA36 /* MCSortFrame.cpp */; };
+		FAA8ABA30AE9523A0086CA36 /* MCDualColorSwatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB9D0AE9523A0086CA36 /* MCDualColorSwatch.cpp */; };
+		FAA8ABA40AE9523A0086CA36 /* MCIcon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AB9E0AE9523A0086CA36 /* MCIcon.cpp */; };
+		FAA8ABA60AE952700086CA36 /* Palette_Display_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABA50AE952700086CA36 /* Palette_Display_Handler.cpp */; };
+		FAA8ABA70AE952700086CA36 /* Palette_Display_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABA50AE952700086CA36 /* Palette_Display_Handler.cpp */; };
+		FAA8ABA90AE952A30086CA36 /* Selected_Color_Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABA80AE952A30086CA36 /* Selected_Color_Display.cpp */; };
+		FAA8ABAA0AE952A30086CA36 /* Selected_Color_Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABA80AE952A30086CA36 /* Selected_Color_Display.cpp */; };
+		FAA8ABBB0AE9537A0086CA36 /* RGB_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB50AE9537A0086CA36 /* RGB_Selector.cpp */; };
+		FAA8ABBC0AE9537A0086CA36 /* Hue_Slider_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB60AE9537A0086CA36 /* Hue_Slider_Handler.cpp */; };
+		FAA8ABBD0AE9537A0086CA36 /* HSB_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB70AE9537A0086CA36 /* HSB_Selector.cpp */; };
+		FAA8ABBE0AE9537A0086CA36 /* Quick_Colors_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB80AE9537A0086CA36 /* Quick_Colors_Handler.cpp */; };
+		FAA8ABBF0AE9537A0086CA36 /* Lab_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB90AE9537A0086CA36 /* Lab_Selector.cpp */; };
+		FAA8ABC00AE9537A0086CA36 /* HVC_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABBA0AE9537A0086CA36 /* HVC_Selector.cpp */; };
+		FAA8ABC10AE9537A0086CA36 /* RGB_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB50AE9537A0086CA36 /* RGB_Selector.cpp */; };
+		FAA8ABC20AE9537A0086CA36 /* Hue_Slider_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB60AE9537A0086CA36 /* Hue_Slider_Handler.cpp */; };
+		FAA8ABC30AE9537A0086CA36 /* HSB_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB70AE9537A0086CA36 /* HSB_Selector.cpp */; };
+		FAA8ABC40AE9537A0086CA36 /* Quick_Colors_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB80AE9537A0086CA36 /* Quick_Colors_Handler.cpp */; };
+		FAA8ABC50AE9537A0086CA36 /* Lab_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABB90AE9537A0086CA36 /* Lab_Selector.cpp */; };
+		FAA8ABC60AE9537A0086CA36 /* HVC_Selector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABBA0AE9537A0086CA36 /* HVC_Selector.cpp */; };
+		FAA8ABD00AE953EB0086CA36 /* MCColorSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABC80AE953EB0086CA36 /* MCColorSlider.h */; };
+		FAA8ABD10AE953EB0086CA36 /* MCColorList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABC90AE953EB0086CA36 /* MCColorList.cpp */; };
+		FAA8ABD20AE953EB0086CA36 /* Custom_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABCA0AE953EB0086CA36 /* Custom_UI.h */; };
+		FAA8ABD30AE953EB0086CA36 /* MCBookPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABCB0AE953EB0086CA36 /* MCBookPopup.h */; };
+		FAA8ABD40AE953EB0086CA36 /* MCColorSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABCC0AE953EB0086CA36 /* MCColorSlider.cpp */; };
+		FAA8ABD50AE953EB0086CA36 /* MCColorList.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABCD0AE953EB0086CA36 /* MCColorList.h */; };
+		FAA8ABD60AE953EB0086CA36 /* Custom_UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABCE0AE953EB0086CA36 /* Custom_UI.cpp */; };
+		FAA8ABD70AE953EB0086CA36 /* MCBookPopup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABCF0AE953EB0086CA36 /* MCBookPopup.cpp */; };
+		FAA8ABD80AE953EB0086CA36 /* MCColorSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABC80AE953EB0086CA36 /* MCColorSlider.h */; };
+		FAA8ABD90AE953EB0086CA36 /* MCColorList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABC90AE953EB0086CA36 /* MCColorList.cpp */; };
+		FAA8ABDA0AE953EB0086CA36 /* Custom_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABCA0AE953EB0086CA36 /* Custom_UI.h */; };
+		FAA8ABDB0AE953EB0086CA36 /* MCBookPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABCB0AE953EB0086CA36 /* MCBookPopup.h */; };
+		FAA8ABDC0AE953EB0086CA36 /* MCColorSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABCC0AE953EB0086CA36 /* MCColorSlider.cpp */; };
+		FAA8ABDD0AE953EB0086CA36 /* MCColorList.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABCD0AE953EB0086CA36 /* MCColorList.h */; };
+		FAA8ABDE0AE953EB0086CA36 /* Custom_UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABCE0AE953EB0086CA36 /* Custom_UI.cpp */; };
+		FAA8ABDF0AE953EB0086CA36 /* MCBookPopup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABCF0AE953EB0086CA36 /* MCBookPopup.cpp */; };
+		FAA8ABE40AE953FC0086CA36 /* MCColorLibraries.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABE00AE953FC0086CA36 /* MCColorLibraries.h */; };
+		FAA8ABE50AE953FC0086CA36 /* MCColorbook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABE10AE953FC0086CA36 /* MCColorbook.cpp */; };
+		FAA8ABE60AE953FC0086CA36 /* MCColorLibraries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABE20AE953FC0086CA36 /* MCColorLibraries.cpp */; };
+		FAA8ABE70AE953FC0086CA36 /* MCColorbook.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABE30AE953FC0086CA36 /* MCColorbook.h */; };
+		FAA8ABE80AE953FC0086CA36 /* MCColorLibraries.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABE00AE953FC0086CA36 /* MCColorLibraries.h */; };
+		FAA8ABE90AE953FC0086CA36 /* MCColorbook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABE10AE953FC0086CA36 /* MCColorbook.cpp */; };
+		FAA8ABEA0AE953FC0086CA36 /* MCColorLibraries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8ABE20AE953FC0086CA36 /* MCColorLibraries.cpp */; };
+		FAA8ABEB0AE953FC0086CA36 /* MCColorbook.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8ABE30AE953FC0086CA36 /* MCColorbook.h */; };
+		FAA8AC6E0AE9570A0086CA36 /* MCLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AC690AE9570A0086CA36 /* MCLib.h */; };
+		FAA8AC6F0AE9570A0086CA36 /* MCDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AC6A0AE9570A0086CA36 /* MCDefs.h */; };
+		FAA8AC700AE9570A0086CA36 /* MCLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AC6B0AE9570A0086CA36 /* MCLib.cpp */; };
+		FAA8AC710AE9570A0086CA36 /* HVCUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AC6C0AE9570A0086CA36 /* HVCUtils.cpp */; };
+		FAA8AC720AE9570A0086CA36 /* HVCSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AC6D0AE9570A0086CA36 /* HVCSpace.cpp */; };
+		FAA8AC730AE9570A0086CA36 /* MCLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AC690AE9570A0086CA36 /* MCLib.h */; };
+		FAA8AC740AE9570A0086CA36 /* MCDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8AC6A0AE9570A0086CA36 /* MCDefs.h */; };
+		FAA8AC750AE9570A0086CA36 /* MCLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AC6B0AE9570A0086CA36 /* MCLib.cpp */; };
+		FAA8AC760AE9570A0086CA36 /* HVCUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AC6C0AE9570A0086CA36 /* HVCUtils.cpp */; };
+		FAA8AC770AE9570A0086CA36 /* HVCSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AC6D0AE9570A0086CA36 /* HVCSpace.cpp */; };
+		FAA8AE400AE972720086CA36 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8AE3F0AE972720086CA36 /* Carbon.framework */; };
+		FAA8AE410AE972720086CA36 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8AE3F0AE972720086CA36 /* Carbon.framework */; };
+		FAA8AE530AE978E60086CA36 /* StandardMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4B0AE978E60086CA36 /* StandardMain.cpp */; };
+		FAA8AE540AE978E60086CA36 /* PickerPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4C0AE978E60086CA36 /* PickerPlugin.cpp */; };
+		FAA8AE550AE978E60086CA36 /* PIUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4D0AE978E60086CA36 /* PIUtilities.cpp */; };
+		FAA8AE560AE978E60086CA36 /* Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4E0AE978E60086CA36 /* Plugin.cpp */; };
+		FAA8AE570AE978E60086CA36 /* DialogUtilitiesMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4F0AE978E60086CA36 /* DialogUtilitiesMac.cpp */; };
+		FAA8AE580AE978E60086CA36 /* PhotoshopSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE500AE978E60086CA36 /* PhotoshopSDK.cpp */; };
+		FAA8AE590AE978E60086CA36 /* PIUNew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE510AE978E60086CA36 /* PIUNew.cpp */; };
+		FAA8AE5A0AE978E60086CA36 /* PIUGet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE520AE978E60086CA36 /* PIUGet.cpp */; };
+		FAA8AE5B0AE978E60086CA36 /* StandardMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4B0AE978E60086CA36 /* StandardMain.cpp */; };
+		FAA8AE5C0AE978E60086CA36 /* PickerPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4C0AE978E60086CA36 /* PickerPlugin.cpp */; };
+		FAA8AE5D0AE978E60086CA36 /* PIUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4D0AE978E60086CA36 /* PIUtilities.cpp */; };
+		FAA8AE5E0AE978E60086CA36 /* Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4E0AE978E60086CA36 /* Plugin.cpp */; };
+		FAA8AE5F0AE978E60086CA36 /* DialogUtilitiesMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE4F0AE978E60086CA36 /* DialogUtilitiesMac.cpp */; };
+		FAA8AE600AE978E60086CA36 /* PhotoshopSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE500AE978E60086CA36 /* PhotoshopSDK.cpp */; };
+		FAA8AE610AE978E60086CA36 /* PIUNew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE510AE978E60086CA36 /* PIUNew.cpp */; };
+		FAA8AE620AE978E60086CA36 /* PIUGet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE520AE978E60086CA36 /* PIUGet.cpp */; };
+		FAA8AE660AE979500086CA36 /* PIUSuites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE650AE979500086CA36 /* PIUSuites.cpp */; };
+		FAA8AE670AE979500086CA36 /* PIUSuites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE650AE979500086CA36 /* PIUSuites.cpp */; };
+		FAA8AE6B0AE9796A0086CA36 /* PIMacUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE690AE9796A0086CA36 /* PIMacUI.cpp */; };
+		FAA8AE6D0AE9796A0086CA36 /* PIMacUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE690AE9796A0086CA36 /* PIMacUI.cpp */; };
+		FAA8AE760AE97A0F0086CA36 /* PropertyUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE750AE97A0F0086CA36 /* PropertyUtils.cpp */; };
+		FAA8AE770AE97A0F0086CA36 /* PropertyUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE750AE97A0F0086CA36 /* PropertyUtils.cpp */; };
+		FAA8AE7D0AE97A920086CA36 /* rsa_memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE7C0AE97A920086CA36 /* rsa_memory.cpp */; };
+		FAA8AE7E0AE97A920086CA36 /* rsa_memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AE7C0AE97A920086CA36 /* rsa_memory.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAA8A6000AE8621F0086CA36 /* HVC Color Composer - Standard.8bc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "HVC Color Composer - Standard.8bc"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA8A6080AE8621F0086CA36 /* HVC Color Composer - Professional.8bc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "HVC Color Composer - Professional.8bc"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA8A60F0AE8621F0086CA36 /* Scripting Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Scripting Common.h"; path = "../common/Scripting Common.h"; sourceTree = SOURCE_ROOT; };
+		FAA8A6110AE8621F0086CA36 /* Composer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Composer.h; path = ../common/Composer.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6120AE8621F0086CA36 /* Composer_UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Composer_UI.h; path = ../common/Composer_UI.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6130AE8621F0086CA36 /* Dialog_Runner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Dialog_Runner.h; path = ../common/Dialogs/Dialog_Runner.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6140AE8621F0086CA36 /* Dialog_Creator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Dialog_Creator.h; path = ../common/Dialogs/Dialog_Creator.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6150AE8621F0086CA36 /* ADM_Access.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADM_Access.h; path = ../common/ADM_Access.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6180AE8621F0086CA36 /* Dialog_Runner_Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Dialog_Runner_Base.h; path = ../common/Dialogs/Dialog_Runner_Base.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6190AE8621F0086CA36 /* Selected_Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Selected_Color.h; path = ../common/Selected_Color.h; sourceTree = SOURCE_ROOT; };
+		FAA8A61A0AE8621F0086CA36 /* Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Helpers.h; path = ../common/Helpers.h; sourceTree = SOURCE_ROOT; };
+		FAA8A61B0AE8621F0086CA36 /* Copy_Bit_Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Copy_Bit_Map.h; path = ../common/Copy_Bit_Map.h; sourceTree = SOURCE_ROOT; };
+		FAA8A61C0AE8621F0086CA36 /* G_World.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = G_World.h; path = ../common/Controls/G_World.h; sourceTree = SOURCE_ROOT; };
+		FAA8A61D0AE8621F0086CA36 /* HVC_RGB_Color_Pair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HVC_RGB_Color_Pair.h; path = ../common/HVC_RGB_Color_Pair.h; sourceTree = SOURCE_ROOT; };
+		FAA8A61F0AE8621F0086CA36 /* Switch_Drawing_Mode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Switch_Drawing_Mode.h; path = ../common/Switch_Drawing_Mode.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6210AE8621F0086CA36 /* Control_Runner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Control_Runner.h; path = ../common/Controls/Control_Runner.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6220AE8621F0086CA36 /* Color_Text_Display.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = Color_Text_Display.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6230AE8621F0086CA36 /* UInt8_Text_Display.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = UInt8_Text_Display.h; sourceTree = "<group>"; };
+		FAA8A6240AE8621F0086CA36 /* SInt8_Text_Display.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = SInt8_Text_Display.h; sourceTree = "<group>"; };
+		FAA8A6250AE8621F0086CA36 /* Percent_Text_Display.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = Percent_Text_Display.h; sourceTree = "<group>"; };
+		FAA8A6260AE8621F0086CA36 /* Hue_Text_Display.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hue_Text_Display.h; sourceTree = "<group>"; };
+		FAA8A6270AE8621F0086CA36 /* Transformed_Text_Display.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = Transformed_Text_Display.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6280AE8621F0086CA36 /* Custom_Draw_Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Custom_Draw_Control.h; path = ../common/Controls/Custom_Draw_Control.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6290AE8621F0086CA36 /* Control_Runner_Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Control_Runner_Base.h; path = ../common/Controls/Control_Runner_Base.h; sourceTree = SOURCE_ROOT; };
+		FAA8A62A0AE8621F0086CA36 /* Custom_Track_Control.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = Custom_Track_Control.h; sourceTree = "<group>"; };
+		FAA8A62B0AE8621F0086CA36 /* Custom_Notify_Control.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = Custom_Notify_Control.h; sourceTree = "<group>"; };
+		FAA8A62C0AE8621F0086CA36 /* Control_Creator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Control_Creator.h; path = ../common/Controls/Control_Creator.h; sourceTree = SOURCE_ROOT; };
+		FAA8A62D0AE8621F0086CA36 /* Simple_Color_Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Simple_Color_Display.h; path = ../common/Controls/Custom/Simple_Color_Display.h; sourceTree = SOURCE_ROOT; };
+		FAA8A62E0AE862200086CA36 /* Radio_Button_Group.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Radio_Button_Group.h; path = ../common/Controls/Radio_Button_Group.h; sourceTree = SOURCE_ROOT; };
+		FAA8A62F0AE862200086CA36 /* Control_Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Control_Interface.h; path = ../common/Controls/Control_Interface.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6300AE862200086CA36 /* Check_Box_Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Check_Box_Handler.h; path = ../common/Controls/Check_Box_Handler.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6310AE862200086CA36 /* Disclosure_Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Disclosure_Triangle.h; path = ../common/Controls/Custom/Disclosure_Triangle.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6330AE862200086CA36 /* Color_Flag_Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Color_Flag_Handler.h; path = ../common/Composer/Color_Flag_Handler.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6340AE862200086CA36 /* Color_Plane_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Color_Plane_Selector.h; path = ../common/Composer/Color_Plane_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6350AE862200086CA36 /* HVC_Hue_Text_Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HVC_Hue_Text_Display.h; path = ../common/Composer/HVC_Hue_Text_Display.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6360AE862200086CA36 /* Munsell_Value_Text_Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Munsell_Value_Text_Display.h; path = ../common/Composer/Munsell_Value_Text_Display.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6370AE862200086CA36 /* Raw_Text_Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Raw_Text_Display.h; path = ../common/Composer/Raw_Text_Display.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6380AE862200086CA36 /* Selected_Color_Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Selected_Color_Display.h; path = ../common/Composer/Selected_Color_Display.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6390AE862200086CA36 /* Color_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Color_Selector.h; path = ../common/Composer/Color_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A63A0AE862200086CA36 /* Standard_X_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Standard_X_Selector.h; path = ../common/Composer/Standard_X_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A63B0AE862200086CA36 /* Standard_Y_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Standard_Y_Selector.h; path = ../common/Composer/Standard_Y_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A63C0AE862200086CA36 /* Standard_Z_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Standard_Z_Selector.h; path = ../common/Composer/Standard_Z_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A63D0AE862200086CA36 /* Standard_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Standard_Selector.h; path = ../common/Composer/Standard_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A63E0AE862200086CA36 /* RGB_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RGB_Selector.h; path = ../common/Composer/RGB_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A63F0AE862200086CA36 /* HVC_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HVC_Selector.h; path = ../common/Composer/HVC_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6400AE862200086CA36 /* Lab_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Lab_Selector.h; path = ../common/Composer/Lab_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6410AE862200086CA36 /* HSB_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HSB_Selector.h; path = ../common/Composer/HSB_Selector.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6420AE862200086CA36 /* Hue_Slider_Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Hue_Slider_Handler.h; path = ../common/Composer/Hue_Slider_Handler.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6430AE862200086CA36 /* Quick_Colors_Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Quick_Colors_Handler.h; path = ../common/Composer/Quick_Colors_Handler.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6440AE862200086CA36 /* Warning_Color_Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Warning_Color_Display.h; path = ../common/Composer/Warning_Color_Display.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6450AE862200086CA36 /* Split_Color_Display_Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Split_Color_Display_Handler.h; path = ../common/Composer/Split_Color_Display_Handler.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6460AE862200086CA36 /* Palette_Display_Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Palette_Display_Base.h; path = ../common/Composer/Palette_Display_Base.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6470AE862200086CA36 /* Palette_Display_Functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Palette_Display_Functions.h; path = ../common/Composer/Palette_Display_Functions.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6480AE862200086CA36 /* Palette_Display_Handler.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = Palette_Display_Handler.h; sourceTree = SOURCE_ROOT; };
+		FAA8A6490AE862200086CA36 /* Generate_Palette_Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Generate_Palette_Base.h; path = ../common/Composer/Generate_Palette_Base.h; sourceTree = SOURCE_ROOT; };
+		FAA8A64B0AE862200086CA36 /* Libraries_UI.h */ = {isa = PBXFileReference; lastKnownFileType = file; path = Libraries_UI.h; sourceTree = "<group>"; };
+		FAA8A64D0AE862200086CA36 /* Composer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Composer.cpp; path = ../common/Composer.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A64E0AE862200086CA36 /* Composer_UI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Composer_UI.cpp; path = ../common/Composer_UI.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A64F0AE862200086CA36 /* Dialog_Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Dialog_Runner.cpp; path = ../common/Dialogs/Dialog_Runner.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6500AE862200086CA36 /* ADM_Access.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ADM_Access.cpp; path = ../common/ADM_Access.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6520AE862200086CA36 /* Selected_Color.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Selected_Color.cpp; path = ../common/Selected_Color.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6530AE862200086CA36 /* G_World.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = G_World.cpp; path = ../common/Controls/G_World.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6560AE862200086CA36 /* Control_Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Control_Runner.cpp; path = ../common/Controls/Control_Runner.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A65D0AE862200086CA36 /* Simple_Color_Display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Simple_Color_Display.cpp; path = ../common/Controls/Custom/Simple_Color_Display.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A65E0AE862200086CA36 /* Custom_Draw_Control.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Custom_Draw_Control.cpp; path = ../common/Controls/Custom_Draw_Control.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A65F0AE862200086CA36 /* Radio_Button_Group.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Radio_Button_Group.cpp; path = ../common/Controls/Radio_Button_Group.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6600AE862200086CA36 /* Check_Box_Handler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Check_Box_Handler.cpp; path = ../common/Controls/Check_Box_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6610AE862200086CA36 /* Disclosure_Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Disclosure_Triangle.cpp; path = ../common/Controls/Custom/Disclosure_Triangle.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6630AE862200086CA36 /* Color_Flag_Handler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Color_Flag_Handler.cpp; path = ../common/Composer/Color_Flag_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6640AE862200086CA36 /* Color_Plane_Selector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Color_Plane_Selector.cpp; path = ../common/Composer/Color_Plane_Selector.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6670AE862200086CA36 /* Raw_Text_Display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Raw_Text_Display.cpp; path = ../common/Composer/Raw_Text_Display.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6690AE862200086CA36 /* Color_Selector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Color_Selector.cpp; path = ../common/Composer/Color_Selector.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6710AE862200086CA36 /* Warning_Color_Display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Warning_Color_Display.cpp; path = ../common/Composer/Warning_Color_Display.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6720AE862200086CA36 /* Split_Color_Display_Handler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Split_Color_Display_Handler.cpp; path = ../common/Composer/Split_Color_Display_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6730AE862200086CA36 /* Palette_Display_Base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Palette_Display_Base.cpp; path = ../common/Composer/Palette_Display_Base.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6750AE862200086CA36 /* Generate_Palette_Base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generate_Palette_Base.cpp; path = ../common/Composer/Generate_Palette_Base.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8A6810AE862200086CA36 /* Mac UI common.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = "Mac UI common.rsrc"; sourceTree = SOURCE_ROOT; };
+		FAA8A6820AE862200086CA36 /* Mac UI.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = "Mac UI.rsrc"; path = "(Standard)/Mac UI.rsrc"; sourceTree = SOURCE_ROOT; };
+		FAA8A6830AE862200086CA36 /* Composer.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = Composer.r; path = ../common/Composer.r; sourceTree = SOURCE_ROOT; };
+		FAA8A7EE0AE863F90086CA36 /* includes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = includes; path = ../../Adobe_PS_CS_SDK/samplecode/common/includes; sourceTree = SOURCE_ROOT; };
+		FAA8A92C0AE872CB0086CA36 /* HVCComposer.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HVCComposer.pch; sourceTree = "<group>"; };
+		FAA8AB540AE94FEE0086CA36 /* DynaArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DynaArray.h; path = ../../Support/DynaArray.h; sourceTree = SOURCE_ROOT; };
+		FAA8AB570AE950050086CA36 /* FastAlloc.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FastAlloc.h; path = ../../Support/FastAlloc.h; sourceTree = SOURCE_ROOT; };
+		FAA8AB580AE950050086CA36 /* FastAlloc.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FastAlloc.cpp; path = ../../Support/FastAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB5D0AE9502E0086CA36 /* MCColor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCColor.cpp; path = ../common/MCColor.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB640AE9504E0086CA36 /* MCEditText.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCEditText.cpp; path = ../common/MCEditText.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB670AE950670086CA36 /* MCLicense.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCLicense.cpp; path = ../common/MCLicense.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB680AE950670086CA36 /* MCSystemRegistry.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCSystemRegistry.cpp; path = ../common/MCSystemRegistry.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB690AE950670086CA36 /* Run_About.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Run_About.cpp; path = ../common/Run_About.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB6A0AE950670086CA36 /* MCRangeSelector.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCRangeSelector.cpp; path = ../common/MCRangeSelector.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB6B0AE950670086CA36 /* MCPrefs.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCPrefs.cpp; path = ../common/MCPrefs.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB760AE950860086CA36 /* RVNameField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = RVNameField.h; path = ../../Support/RVNameField.h; sourceTree = SOURCE_ROOT; };
+		FAA8AB790AE9509F0086CA36 /* SException.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SException.cpp; path = ../../Support/SException.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB7A0AE9509F0086CA36 /* SpDebug.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SpDebug.cpp; path = ../../Support/SpDebug.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB7B0AE9509F0086CA36 /* SpDebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SpDebug.h; path = ../../Support/SpDebug.h; sourceTree = SOURCE_ROOT; };
+		FAA8AB820AE950B40086CA36 /* SpError.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SpError.h; path = ../common/SpError.h; sourceTree = SOURCE_ROOT; };
+		FAA8AB830AE950B40086CA36 /* SpTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SpTypes.h; path = ../common/SpTypes.h; sourceTree = SOURCE_ROOT; };
+		FAA8AB990AE952280086CA36 /* MCColorSwatch.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCColorSwatch.cpp; path = ../common/Composer/MCColorSwatch.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB9C0AE9523A0086CA36 /* MCSortFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCSortFrame.cpp; path = ../common/Composer/MCSortFrame.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB9D0AE9523A0086CA36 /* MCDualColorSwatch.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCDualColorSwatch.cpp; path = ../common/Composer/MCDualColorSwatch.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AB9E0AE9523A0086CA36 /* MCIcon.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCIcon.cpp; path = ../common/Composer/MCIcon.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABA50AE952700086CA36 /* Palette_Display_Handler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Palette_Display_Handler.cpp; path = ../common/Palette_Display_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABA80AE952A30086CA36 /* Selected_Color_Display.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Selected_Color_Display.cpp; path = ../common/Composer/Selected_Color_Display.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABB50AE9537A0086CA36 /* RGB_Selector.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = RGB_Selector.cpp; path = ../common/Composer/RGB_Selector.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABB60AE9537A0086CA36 /* Hue_Slider_Handler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Hue_Slider_Handler.cpp; path = ../common/Composer/Hue_Slider_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABB70AE9537A0086CA36 /* HSB_Selector.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HSB_Selector.cpp; path = ../common/Composer/HSB_Selector.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABB80AE9537A0086CA36 /* Quick_Colors_Handler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Quick_Colors_Handler.cpp; path = ../common/Composer/Quick_Colors_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABB90AE9537A0086CA36 /* Lab_Selector.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Lab_Selector.cpp; path = ../common/Composer/Lab_Selector.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABBA0AE9537A0086CA36 /* HVC_Selector.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HVC_Selector.cpp; path = ../common/Composer/HVC_Selector.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABC80AE953EB0086CA36 /* MCColorSlider.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MCColorSlider.h; path = ../common/Libraries/MCColorSlider.h; sourceTree = SOURCE_ROOT; };
+		FAA8ABC90AE953EB0086CA36 /* MCColorList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCColorList.cpp; path = ../common/Libraries/MCColorList.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABCA0AE953EB0086CA36 /* Custom_UI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Custom_UI.h; path = ../common/Libraries/Custom_UI.h; sourceTree = SOURCE_ROOT; };
+		FAA8ABCB0AE953EB0086CA36 /* MCBookPopup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MCBookPopup.h; path = ../common/Libraries/MCBookPopup.h; sourceTree = SOURCE_ROOT; };
+		FAA8ABCC0AE953EB0086CA36 /* MCColorSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCColorSlider.cpp; path = ../common/Libraries/MCColorSlider.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABCD0AE953EB0086CA36 /* MCColorList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MCColorList.h; path = ../common/Libraries/MCColorList.h; sourceTree = SOURCE_ROOT; };
+		FAA8ABCE0AE953EB0086CA36 /* Custom_UI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Custom_UI.cpp; path = ../common/Libraries/Custom_UI.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABCF0AE953EB0086CA36 /* MCBookPopup.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCBookPopup.cpp; path = ../common/Libraries/MCBookPopup.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABE00AE953FC0086CA36 /* MCColorLibraries.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MCColorLibraries.h; path = ../common/MCColorLibraries.h; sourceTree = SOURCE_ROOT; };
+		FAA8ABE10AE953FC0086CA36 /* MCColorbook.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCColorbook.cpp; path = ../common/MCColorbook.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABE20AE953FC0086CA36 /* MCColorLibraries.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCColorLibraries.cpp; path = ../common/MCColorLibraries.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8ABE30AE953FC0086CA36 /* MCColorbook.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MCColorbook.h; path = ../common/MCColorbook.h; sourceTree = SOURCE_ROOT; };
+		FAA8AC690AE9570A0086CA36 /* MCLib.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MCLib.h; path = ../../MCLib/MCLib.h; sourceTree = SOURCE_ROOT; };
+		FAA8AC6A0AE9570A0086CA36 /* MCDefs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MCDefs.h; path = ../../MCLib/MCDefs.h; sourceTree = SOURCE_ROOT; };
+		FAA8AC6B0AE9570A0086CA36 /* MCLib.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MCLib.cpp; path = ../../MCLib/Lib/MCLib.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AC6C0AE9570A0086CA36 /* HVCUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HVCUtils.cpp; path = ../../MCLib/Lib/HVCUtils.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AC6D0AE9570A0086CA36 /* HVCSpace.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HVCSpace.cpp; path = ../../MCLib/Lib/HVCSpace.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE3F0AE972720086CA36 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		FAA8AE4B0AE978E60086CA36 /* StandardMain.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = StandardMain.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/StandardMain.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE4C0AE978E60086CA36 /* PickerPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PickerPlugin.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/PickerPlugin.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE4D0AE978E60086CA36 /* PIUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUtilities.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/PIUtilities.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE4E0AE978E60086CA36 /* Plugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Plugin.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/Plugin.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE4F0AE978E60086CA36 /* DialogUtilitiesMac.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DialogUtilitiesMac.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/DialogUtilitiesMac.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE500AE978E60086CA36 /* PhotoshopSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PhotoshopSDK.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/PhotoshopSDK.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE510AE978E60086CA36 /* PIUNew.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUNew.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/PIUNew.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE520AE978E60086CA36 /* PIUGet.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUGet.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/PIUGet.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE650AE979500086CA36 /* PIUSuites.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUSuites.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/PIUSuites.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE690AE9796A0086CA36 /* PIMacUI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIMacUI.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/PIMacUI.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE750AE97A0F0086CA36 /* PropertyUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PropertyUtils.cpp; path = ../../Adobe_PS_CS_SDK/samplecode/common/sources/PropertyUtils.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8AE7C0AE97A920086CA36 /* rsa_memory.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = rsa_memory.cpp; path = ../common/rsa_memory.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA8A5FD0AE8621F0086CA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8AE400AE972720086CA36 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8A6050AE8621F0086CA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8AE410AE972720086CA36 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA8A5F30AE8621F0086CA36 = {
+			isa = PBXGroup;
+			children = (
+				FAA8A60E0AE8621F0086CA36 /* Headers */,
+				FAA8A64C0AE862200086CA36 /* Sources */,
+				FAA8A6780AE862200086CA36 /* Common Sources */,
+				FAA8A6800AE862200086CA36 /* Resources */,
+				FAA8AC680AE956E50086CA36 /* MCLib */,
+				FAA8AB940AE951730086CA36 /* Controls */,
+				FAA8ABAB0AE952CD0086CA36 /* Handlers */,
+				FAA8ABC70AE953AF0086CA36 /* Color Libraries */,
+				FAA8A6840AE862200086CA36 /* Libraries Standard */,
+				FAA8A6010AE8621F0086CA36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA8A6010AE8621F0086CA36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8A6000AE8621F0086CA36 /* HVC Color Composer - Standard.8bc */,
+				FAA8A6080AE8621F0086CA36 /* HVC Color Composer - Professional.8bc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA8A60E0AE8621F0086CA36 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8A92C0AE872CB0086CA36 /* HVCComposer.pch */,
+				FAA8A7EE0AE863F90086CA36 /* includes */,
+				FAA8A60F0AE8621F0086CA36 /* Scripting Common.h */,
+				FAA8A6110AE8621F0086CA36 /* Composer.h */,
+				FAA8A6120AE8621F0086CA36 /* Composer_UI.h */,
+				FAA8A6130AE8621F0086CA36 /* Dialog_Runner.h */,
+				FAA8A6140AE8621F0086CA36 /* Dialog_Creator.h */,
+				FAA8A6150AE8621F0086CA36 /* ADM_Access.h */,
+				FAA8A6180AE8621F0086CA36 /* Dialog_Runner_Base.h */,
+				FAA8A6190AE8621F0086CA36 /* Selected_Color.h */,
+				FAA8A61A0AE8621F0086CA36 /* Helpers.h */,
+				FAA8A61B0AE8621F0086CA36 /* Copy_Bit_Map.h */,
+				FAA8A61C0AE8621F0086CA36 /* G_World.h */,
+				FAA8A61D0AE8621F0086CA36 /* HVC_RGB_Color_Pair.h */,
+				FAA8A61F0AE8621F0086CA36 /* Switch_Drawing_Mode.h */,
+				FAA8A6200AE8621F0086CA36 /* Controls */,
+				FAA8A6320AE862200086CA36 /* Composer */,
+				FAA8A64A0AE862200086CA36 /* Libraries */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		FAA8A6200AE8621F0086CA36 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8A6210AE8621F0086CA36 /* Control_Runner.h */,
+				FAA8A6220AE8621F0086CA36 /* Color_Text_Display.h */,
+				FAA8A6230AE8621F0086CA36 /* UInt8_Text_Display.h */,
+				FAA8A6240AE8621F0086CA36 /* SInt8_Text_Display.h */,
+				FAA8A6250AE8621F0086CA36 /* Percent_Text_Display.h */,
+				FAA8A6260AE8621F0086CA36 /* Hue_Text_Display.h */,
+				FAA8A6270AE8621F0086CA36 /* Transformed_Text_Display.h */,
+				FAA8A6280AE8621F0086CA36 /* Custom_Draw_Control.h */,
+				FAA8A6290AE8621F0086CA36 /* Control_Runner_Base.h */,
+				FAA8A62A0AE8621F0086CA36 /* Custom_Track_Control.h */,
+				FAA8A62B0AE8621F0086CA36 /* Custom_Notify_Control.h */,
+				FAA8A62C0AE8621F0086CA36 /* Control_Creator.h */,
+				FAA8A62D0AE8621F0086CA36 /* Simple_Color_Display.h */,
+				FAA8A62E0AE862200086CA36 /* Radio_Button_Group.h */,
+				FAA8A62F0AE862200086CA36 /* Control_Interface.h */,
+				FAA8A6300AE862200086CA36 /* Check_Box_Handler.h */,
+				FAA8A6310AE862200086CA36 /* Disclosure_Triangle.h */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		FAA8A6320AE862200086CA36 /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8A6330AE862200086CA36 /* Color_Flag_Handler.h */,
+				FAA8A6340AE862200086CA36 /* Color_Plane_Selector.h */,
+				FAA8A6350AE862200086CA36 /* HVC_Hue_Text_Display.h */,
+				FAA8A6360AE862200086CA36 /* Munsell_Value_Text_Display.h */,
+				FAA8A6370AE862200086CA36 /* Raw_Text_Display.h */,
+				FAA8A6380AE862200086CA36 /* Selected_Color_Display.h */,
+				FAA8A6390AE862200086CA36 /* Color_Selector.h */,
+				FAA8A63A0AE862200086CA36 /* Standard_X_Selector.h */,
+				FAA8A63B0AE862200086CA36 /* Standard_Y_Selector.h */,
+				FAA8A63C0AE862200086CA36 /* Standard_Z_Selector.h */,
+				FAA8A63D0AE862200086CA36 /* Standard_Selector.h */,
+				FAA8A63E0AE862200086CA36 /* RGB_Selector.h */,
+				FAA8A63F0AE862200086CA36 /* HVC_Selector.h */,
+				FAA8A6400AE862200086CA36 /* Lab_Selector.h */,
+				FAA8A6410AE862200086CA36 /* HSB_Selector.h */,
+				FAA8A6420AE862200086CA36 /* Hue_Slider_Handler.h */,
+				FAA8A6430AE862200086CA36 /* Quick_Colors_Handler.h */,
+				FAA8A6440AE862200086CA36 /* Warning_Color_Display.h */,
+				FAA8A6450AE862200086CA36 /* Split_Color_Display_Handler.h */,
+				FAA8A6460AE862200086CA36 /* Palette_Display_Base.h */,
+				FAA8A6470AE862200086CA36 /* Palette_Display_Functions.h */,
+				FAA8A6480AE862200086CA36 /* Palette_Display_Handler.h */,
+				FAA8A6490AE862200086CA36 /* Generate_Palette_Base.h */,
+			);
+			name = Composer;
+			sourceTree = "<group>";
+		};
+		FAA8A64A0AE862200086CA36 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8A64B0AE862200086CA36 /* Libraries_UI.h */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		FAA8A64C0AE862200086CA36 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8A6500AE862200086CA36 /* ADM_Access.cpp */,
+				FAA8A6640AE862200086CA36 /* Color_Plane_Selector.cpp */,
+				FAA8A64D0AE862200086CA36 /* Composer.cpp */,
+				FAA8A64E0AE862200086CA36 /* Composer_UI.cpp */,
+				FAA8A6560AE862200086CA36 /* Control_Runner.cpp */,
+				FAA8A64F0AE862200086CA36 /* Dialog_Runner.cpp */,
+				FAA8AB540AE94FEE0086CA36 /* DynaArray.h */,
+				FAA8AB580AE950050086CA36 /* FastAlloc.cpp */,
+				FAA8AB570AE950050086CA36 /* FastAlloc.h */,
+				FAA8A6530AE862200086CA36 /* G_World.cpp */,
+				FAA8AB5D0AE9502E0086CA36 /* MCColor.cpp */,
+				FAA8AB640AE9504E0086CA36 /* MCEditText.cpp */,
+				FAA8AB670AE950670086CA36 /* MCLicense.cpp */,
+				FAA8AB6B0AE950670086CA36 /* MCPrefs.cpp */,
+				FAA8AB6A0AE950670086CA36 /* MCRangeSelector.cpp */,
+				FAA8AB680AE950670086CA36 /* MCSystemRegistry.cpp */,
+				FAA8AB690AE950670086CA36 /* Run_About.cpp */,
+				FAA8AB760AE950860086CA36 /* RVNameField.h */,
+				FAA8A6520AE862200086CA36 /* Selected_Color.cpp */,
+				FAA8AB790AE9509F0086CA36 /* SException.cpp */,
+				FAA8AB7A0AE9509F0086CA36 /* SpDebug.cpp */,
+				FAA8AB7B0AE9509F0086CA36 /* SpDebug.h */,
+				FAA8AB820AE950B40086CA36 /* SpError.h */,
+				FAA8AB830AE950B40086CA36 /* SpTypes.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		FAA8A6780AE862200086CA36 /* Common Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8AE4F0AE978E60086CA36 /* DialogUtilitiesMac.cpp */,
+				FAA8AE500AE978E60086CA36 /* PhotoshopSDK.cpp */,
+				FAA8AE4C0AE978E60086CA36 /* PickerPlugin.cpp */,
+				FAA8AE520AE978E60086CA36 /* PIUGet.cpp */,
+				FAA8AE510AE978E60086CA36 /* PIUNew.cpp */,
+				FAA8AE650AE979500086CA36 /* PIUSuites.cpp */,
+				FAA8AE4D0AE978E60086CA36 /* PIUtilities.cpp */,
+				FAA8AE690AE9796A0086CA36 /* PIMacUI.cpp */,
+				FAA8AE4E0AE978E60086CA36 /* Plugin.cpp */,
+				FAA8AE750AE97A0F0086CA36 /* PropertyUtils.cpp */,
+				FAA8AE7C0AE97A920086CA36 /* rsa_memory.cpp */,
+				FAA8AE4B0AE978E60086CA36 /* StandardMain.cpp */,
+			);
+			name = "Common Sources";
+			sourceTree = "<group>";
+		};
+		FAA8A6800AE862200086CA36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8A6810AE862200086CA36 /* Mac UI common.rsrc */,
+				FAA8A6820AE862200086CA36 /* Mac UI.rsrc */,
+				FAA8A6830AE862200086CA36 /* Composer.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FAA8A6840AE862200086CA36 /* Libraries Standard */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8AE3F0AE972720086CA36 /* Carbon.framework */,
+			);
+			name = "Libraries Standard";
+			sourceTree = "<group>";
+		};
+		FAA8AB940AE951730086CA36 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8A65E0AE862200086CA36 /* Custom_Draw_Control.cpp */,
+				FAA8A6610AE862200086CA36 /* Disclosure_Triangle.cpp */,
+				FAA8A6750AE862200086CA36 /* Generate_Palette_Base.cpp */,
+				FAA8AB990AE952280086CA36 /* MCColorSwatch.cpp */,
+				FAA8AB9D0AE9523A0086CA36 /* MCDualColorSwatch.cpp */,
+				FAA8AB9E0AE9523A0086CA36 /* MCIcon.cpp */,
+				FAA8AB9C0AE9523A0086CA36 /* MCSortFrame.cpp */,
+				FAA8A6730AE862200086CA36 /* Palette_Display_Base.cpp */,
+				FAA8ABA50AE952700086CA36 /* Palette_Display_Handler.cpp */,
+				FAA8A6670AE862200086CA36 /* Raw_Text_Display.cpp */,
+				FAA8ABA80AE952A30086CA36 /* Selected_Color_Display.cpp */,
+				FAA8A65D0AE862200086CA36 /* Simple_Color_Display.cpp */,
+				FAA8A6720AE862200086CA36 /* Split_Color_Display_Handler.cpp */,
+				FAA8A6710AE862200086CA36 /* Warning_Color_Display.cpp */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		FAA8ABAB0AE952CD0086CA36 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8A6600AE862200086CA36 /* Check_Box_Handler.cpp */,
+				FAA8A6630AE862200086CA36 /* Color_Flag_Handler.cpp */,
+				FAA8A6690AE862200086CA36 /* Color_Selector.cpp */,
+				FAA8ABB60AE9537A0086CA36 /* Hue_Slider_Handler.cpp */,
+				FAA8ABB70AE9537A0086CA36 /* HSB_Selector.cpp */,
+				FAA8ABBA0AE9537A0086CA36 /* HVC_Selector.cpp */,
+				FAA8ABB90AE9537A0086CA36 /* Lab_Selector.cpp */,
+				FAA8ABB80AE9537A0086CA36 /* Quick_Colors_Handler.cpp */,
+				FAA8A65F0AE862200086CA36 /* Radio_Button_Group.cpp */,
+				FAA8ABB50AE9537A0086CA36 /* RGB_Selector.cpp */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		FAA8ABC70AE953AF0086CA36 /* Color Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8ABCE0AE953EB0086CA36 /* Custom_UI.cpp */,
+				FAA8ABCA0AE953EB0086CA36 /* Custom_UI.h */,
+				FAA8ABCF0AE953EB0086CA36 /* MCBookPopup.cpp */,
+				FAA8ABCB0AE953EB0086CA36 /* MCBookPopup.h */,
+				FAA8ABE10AE953FC0086CA36 /* MCColorbook.cpp */,
+				FAA8ABE30AE953FC0086CA36 /* MCColorbook.h */,
+				FAA8ABE20AE953FC0086CA36 /* MCColorLibraries.cpp */,
+				FAA8ABE00AE953FC0086CA36 /* MCColorLibraries.h */,
+				FAA8ABC90AE953EB0086CA36 /* MCColorList.cpp */,
+				FAA8ABC80AE953EB0086CA36 /* MCColorSlider.h */,
+				FAA8ABCC0AE953EB0086CA36 /* MCColorSlider.cpp */,
+				FAA8ABCD0AE953EB0086CA36 /* MCColorList.h */,
+			);
+			name = "Color Libraries";
+			sourceTree = "<group>";
+		};
+		FAA8AC680AE956E50086CA36 /* MCLib */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8AC6D0AE9570A0086CA36 /* HVCSpace.cpp */,
+				FAA8AC6C0AE9570A0086CA36 /* HVCUtils.cpp */,
+				FAA8AC6B0AE9570A0086CA36 /* MCLib.cpp */,
+				FAA8AC6A0AE9570A0086CA36 /* MCDefs.h */,
+				FAA8AC690AE9570A0086CA36 /* MCLib.h */,
+			);
+			name = MCLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAA8A5FA0AE8621F0086CA36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8A7360AE862250086CA36 /* Composer.h in Headers */,
+				FAA8A7380AE862250086CA36 /* Scripting Common.h in Headers */,
+				FAA8A73A0AE862250086CA36 /* Composer.h in Headers */,
+				FAA8A73B0AE862250086CA36 /* Composer_UI.h in Headers */,
+				FAA8A73E0AE862250086CA36 /* Dialog_Runner.h in Headers */,
+				FAA8A7400AE862250086CA36 /* Dialog_Creator.h in Headers */,
+				FAA8A7410AE862250086CA36 /* Control_Runner.h in Headers */,
+				FAA8A7450AE862250086CA36 /* ADM_Access.h in Headers */,
+				FAA8A74A0AE862250086CA36 /* Dialog_Runner_Base.h in Headers */,
+				FAA8A7530AE862250086CA36 /* Selected_Color.h in Headers */,
+				FAA8A7540AE862250086CA36 /* Helpers.h in Headers */,
+				FAA8A7550AE862250086CA36 /* Raw_Text_Display.h in Headers */,
+				FAA8A7590AE862250086CA36 /* HVC_Hue_Text_Display.h in Headers */,
+				FAA8A75B0AE862250086CA36 /* Custom_Draw_Control.h in Headers */,
+				FAA8A75C0AE862250086CA36 /* Control_Runner_Base.h in Headers */,
+				FAA8A75F0AE862250086CA36 /* Control_Creator.h in Headers */,
+				FAA8A7600AE862250086CA36 /* Selected_Color_Display.h in Headers */,
+				FAA8A7610AE862250086CA36 /* Simple_Color_Display.h in Headers */,
+				FAA8A7620AE862250086CA36 /* HVC_RGB_Color_Pair.h in Headers */,
+				FAA8A7670AE862250086CA36 /* Radio_Button_Group.h in Headers */,
+				FAA8A7680AE862250086CA36 /* Color_Plane_Selector.h in Headers */,
+				FAA8A76B0AE862250086CA36 /* Control_Interface.h in Headers */,
+				FAA8A76D0AE862250086CA36 /* Check_Box_Handler.h in Headers */,
+				FAA8A76E0AE862250086CA36 /* Check_Box_Handler.h in Headers */,
+				FAA8A7700AE862250086CA36 /* Color_Flag_Handler.h in Headers */,
+				FAA8A7710AE862250086CA36 /* Color_Flag_Handler.h in Headers */,
+				FAA8A7720AE862250086CA36 /* Copy_Bit_Map.h in Headers */,
+				FAA8A7740AE862250086CA36 /* G_World.h in Headers */,
+				FAA8A7750AE862250086CA36 /* G_World.h in Headers */,
+				FAA8A7770AE862250086CA36 /* Lab_Selector.h in Headers */,
+				FAA8A7790AE862250086CA36 /* Standard_Selector.h in Headers */,
+				FAA8A77B0AE862250086CA36 /* HVC_Selector.h in Headers */,
+				FAA8A77D0AE862250086CA36 /* HSB_Selector.h in Headers */,
+				FAA8A77F0AE862250086CA36 /* RGB_Selector.h in Headers */,
+				FAA8A7800AE862250086CA36 /* Standard_X_Selector.h in Headers */,
+				FAA8A7810AE862250086CA36 /* Standard_Z_Selector.h in Headers */,
+				FAA8A7820AE862250086CA36 /* RGB_Selector.h in Headers */,
+				FAA8A7830AE862250086CA36 /* HVC_Selector.h in Headers */,
+				FAA8A7840AE862250086CA36 /* Standard_Y_Selector.h in Headers */,
+				FAA8A7850AE862250086CA36 /* Lab_Selector.h in Headers */,
+				FAA8A7860AE862250086CA36 /* HSB_Selector.h in Headers */,
+				FAA8A7870AE862250086CA36 /* Standard_Selector.h in Headers */,
+				FAA8A7880AE862250086CA36 /* Color_Selector.h in Headers */,
+				FAA8A78B0AE862250086CA36 /* Hue_Slider_Handler.h in Headers */,
+				FAA8A78C0AE862250086CA36 /* Hue_Slider_Handler.h in Headers */,
+				FAA8A78E0AE862250086CA36 /* Quick_Colors_Handler.h in Headers */,
+				FAA8A78F0AE862250086CA36 /* Quick_Colors_Handler.h in Headers */,
+				FAA8A7920AE862250086CA36 /* Warning_Color_Display.h in Headers */,
+				FAA8A7930AE862250086CA36 /* Warning_Color_Display.h in Headers */,
+				FAA8A7950AE862250086CA36 /* Split_Color_Display_Handler.h in Headers */,
+				FAA8A7960AE862250086CA36 /* Split_Color_Display_Handler.h in Headers */,
+				FAA8A7970AE862250086CA36 /* Palette_Display_Base.h in Headers */,
+				FAA8A7980AE862250086CA36 /* Palette_Display_Functions.h in Headers */,
+				FAA8A79D0AE862250086CA36 /* Generate_Palette_Base.h in Headers */,
+				FAA8A79E0AE862250086CA36 /* Generate_Palette_Base.h in Headers */,
+				FAA8A7A00AE862250086CA36 /* Disclosure_Triangle.h in Headers */,
+				FAA8A7A10AE862250086CA36 /* Disclosure_Triangle.h in Headers */,
+				FAA8A7A80AE862250086CA36 /* Switch_Drawing_Mode.h in Headers */,
+				FAA8A92D0AE872CB0086CA36 /* HVCComposer.pch in Headers */,
+				FAA8AB550AE94FEE0086CA36 /* DynaArray.h in Headers */,
+				FAA8AB590AE950050086CA36 /* FastAlloc.h in Headers */,
+				FAA8AB770AE950860086CA36 /* RVNameField.h in Headers */,
+				FAA8AB7E0AE9509F0086CA36 /* SpDebug.h in Headers */,
+				FAA8AB840AE950B40086CA36 /* SpError.h in Headers */,
+				FAA8AB850AE950B40086CA36 /* SpTypes.h in Headers */,
+				FAA8ABD00AE953EB0086CA36 /* MCColorSlider.h in Headers */,
+				FAA8ABD20AE953EB0086CA36 /* Custom_UI.h in Headers */,
+				FAA8ABD30AE953EB0086CA36 /* MCBookPopup.h in Headers */,
+				FAA8ABD50AE953EB0086CA36 /* MCColorList.h in Headers */,
+				FAA8ABE40AE953FC0086CA36 /* MCColorLibraries.h in Headers */,
+				FAA8ABE70AE953FC0086CA36 /* MCColorbook.h in Headers */,
+				FAA8AC6E0AE9570A0086CA36 /* MCLib.h in Headers */,
+				FAA8AC6F0AE9570A0086CA36 /* MCDefs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8A6020AE8621F0086CA36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8A68E0AE862200086CA36 /* Composer.h in Headers */,
+				FAA8A6900AE862200086CA36 /* Scripting Common.h in Headers */,
+				FAA8A6920AE862200086CA36 /* Composer.h in Headers */,
+				FAA8A6930AE862200086CA36 /* Composer_UI.h in Headers */,
+				FAA8A6950AE862200086CA36 /* Dialog_Runner.h in Headers */,
+				FAA8A6970AE862200086CA36 /* Dialog_Creator.h in Headers */,
+				FAA8A6980AE862200086CA36 /* Control_Runner.h in Headers */,
+				FAA8A69C0AE862200086CA36 /* ADM_Access.h in Headers */,
+				FAA8A6A10AE862200086CA36 /* Dialog_Runner_Base.h in Headers */,
+				FAA8A6AB0AE862200086CA36 /* Munsell_Value_Text_Display.h in Headers */,
+				FAA8A6AC0AE862200086CA36 /* Munsell_Value_Text_Display.h in Headers */,
+				FAA8A6AD0AE862200086CA36 /* Selected_Color.h in Headers */,
+				FAA8A6AE0AE862200086CA36 /* Helpers.h in Headers */,
+				FAA8A6AF0AE862200086CA36 /* Raw_Text_Display.h in Headers */,
+				FAA8A6B30AE862200086CA36 /* HVC_Hue_Text_Display.h in Headers */,
+				FAA8A6B50AE862200086CA36 /* Custom_Draw_Control.h in Headers */,
+				FAA8A6B60AE862200086CA36 /* Control_Runner_Base.h in Headers */,
+				FAA8A6B90AE862200086CA36 /* Control_Creator.h in Headers */,
+				FAA8A6BA0AE862200086CA36 /* Selected_Color_Display.h in Headers */,
+				FAA8A6BB0AE862200086CA36 /* Simple_Color_Display.h in Headers */,
+				FAA8A6BC0AE862200086CA36 /* HVC_RGB_Color_Pair.h in Headers */,
+				FAA8A6C10AE862200086CA36 /* Radio_Button_Group.h in Headers */,
+				FAA8A6C20AE862200086CA36 /* Color_Plane_Selector.h in Headers */,
+				FAA8A6C50AE862200086CA36 /* Control_Interface.h in Headers */,
+				FAA8A6C70AE862200086CA36 /* Check_Box_Handler.h in Headers */,
+				FAA8A6C80AE862200086CA36 /* Check_Box_Handler.h in Headers */,
+				FAA8A6CA0AE862200086CA36 /* Color_Flag_Handler.h in Headers */,
+				FAA8A6CB0AE862200086CA36 /* Color_Flag_Handler.h in Headers */,
+				FAA8A6CC0AE862200086CA36 /* Copy_Bit_Map.h in Headers */,
+				FAA8A6CE0AE862200086CA36 /* G_World.h in Headers */,
+				FAA8A6CF0AE862200086CA36 /* G_World.h in Headers */,
+				FAA8A6D10AE862200086CA36 /* Lab_Selector.h in Headers */,
+				FAA8A6D30AE862200086CA36 /* Standard_Selector.h in Headers */,
+				FAA8A6D50AE862200086CA36 /* HVC_Selector.h in Headers */,
+				FAA8A6D70AE862200086CA36 /* HSB_Selector.h in Headers */,
+				FAA8A6D90AE862200086CA36 /* RGB_Selector.h in Headers */,
+				FAA8A6DA0AE862200086CA36 /* Standard_X_Selector.h in Headers */,
+				FAA8A6DB0AE862200086CA36 /* Standard_Z_Selector.h in Headers */,
+				FAA8A6DC0AE862200086CA36 /* RGB_Selector.h in Headers */,
+				FAA8A6DD0AE862200086CA36 /* HVC_Selector.h in Headers */,
+				FAA8A6DE0AE862200086CA36 /* Standard_Y_Selector.h in Headers */,
+				FAA8A6DF0AE862200086CA36 /* Lab_Selector.h in Headers */,
+				FAA8A6E00AE862200086CA36 /* HSB_Selector.h in Headers */,
+				FAA8A6E10AE862200086CA36 /* Standard_Selector.h in Headers */,
+				FAA8A6E20AE862200086CA36 /* Color_Selector.h in Headers */,
+				FAA8A6E50AE862200086CA36 /* Hue_Slider_Handler.h in Headers */,
+				FAA8A6E60AE862200086CA36 /* Hue_Slider_Handler.h in Headers */,
+				FAA8A6E80AE862200086CA36 /* Quick_Colors_Handler.h in Headers */,
+				FAA8A6E90AE862200086CA36 /* Quick_Colors_Handler.h in Headers */,
+				FAA8A6EC0AE862200086CA36 /* Warning_Color_Display.h in Headers */,
+				FAA8A6ED0AE862200086CA36 /* Warning_Color_Display.h in Headers */,
+				FAA8A6EF0AE862200086CA36 /* Split_Color_Display_Handler.h in Headers */,
+				FAA8A6F00AE862200086CA36 /* Split_Color_Display_Handler.h in Headers */,
+				FAA8A6F10AE862200086CA36 /* Palette_Display_Base.h in Headers */,
+				FAA8A6F20AE862200086CA36 /* Palette_Display_Functions.h in Headers */,
+				FAA8A6F50AE862200086CA36 /* Generate_Palette_Base.h in Headers */,
+				FAA8A6F60AE862200086CA36 /* Generate_Palette_Base.h in Headers */,
+				FAA8A6F80AE862200086CA36 /* Disclosure_Triangle.h in Headers */,
+				FAA8A6F90AE862200086CA36 /* Disclosure_Triangle.h in Headers */,
+				FAA8A7000AE862200086CA36 /* Switch_Drawing_Mode.h in Headers */,
+				FAA8A7150AE862240086CA36 /* Palette_Display_Handler.h in Headers */,
+				FAA8A92E0AE872CB0086CA36 /* HVCComposer.pch in Headers */,
+				FAA8AB560AE94FEE0086CA36 /* DynaArray.h in Headers */,
+				FAA8AB5B0AE950050086CA36 /* FastAlloc.h in Headers */,
+				FAA8AB780AE950860086CA36 /* RVNameField.h in Headers */,
+				FAA8AB810AE9509F0086CA36 /* SpDebug.h in Headers */,
+				FAA8AB860AE950B40086CA36 /* SpError.h in Headers */,
+				FAA8AB870AE950B40086CA36 /* SpTypes.h in Headers */,
+				FAA8ABD80AE953EB0086CA36 /* MCColorSlider.h in Headers */,
+				FAA8ABDA0AE953EB0086CA36 /* Custom_UI.h in Headers */,
+				FAA8ABDB0AE953EB0086CA36 /* MCBookPopup.h in Headers */,
+				FAA8ABDD0AE953EB0086CA36 /* MCColorList.h in Headers */,
+				FAA8ABE80AE953FC0086CA36 /* MCColorLibraries.h in Headers */,
+				FAA8ABEB0AE953FC0086CA36 /* MCColorbook.h in Headers */,
+				FAA8AC730AE9570A0086CA36 /* MCLib.h in Headers */,
+				FAA8AC740AE9570A0086CA36 /* MCDefs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAA8A5FF0AE8621F0086CA36 /* Standard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA8A6090AE8621F0086CA36 /* Build configuration list for PBXNativeTarget "Standard" */;
+			buildPhases = (
+				FAA8A5FA0AE8621F0086CA36 /* Headers */,
+				FAA8A5FB0AE8621F0086CA36 /* Sources */,
+				FAA8A5FC0AE8621F0086CA36 /* Resources */,
+				FAA8A5FD0AE8621F0086CA36 /* Frameworks */,
+				FAA8A5FE0AE8621F0086CA36 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Standard;
+			productName = Standard;
+			productReference = FAA8A6000AE8621F0086CA36 /* HVC Color Composer - Standard.8bc */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		FAA8A6070AE8621F0086CA36 /* Professional */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA8A60B0AE8621F0086CA36 /* Build configuration list for PBXNativeTarget "Professional" */;
+			buildPhases = (
+				FAA8A6020AE8621F0086CA36 /* Headers */,
+				FAA8A6030AE8621F0086CA36 /* Sources */,
+				FAA8A6040AE8621F0086CA36 /* Resources */,
+				FAA8A6050AE8621F0086CA36 /* Frameworks */,
+				FAA8A6060AE8621F0086CA36 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Professional;
+			productName = Professional;
+			productReference = FAA8A6080AE8621F0086CA36 /* HVC Color Composer - Professional.8bc */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA8A5F50AE8621F0086CA36 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FAA8A5F60AE8621F0086CA36 /* Build configuration list for PBXProject "HVCComposer" */;
+			hasScannedForEncodings = 0;
+			mainGroup = FAA8A5F30AE8621F0086CA36;
+			productRefGroup = FAA8A6010AE8621F0086CA36 /* Products */;
+			projectDirPath = "";
+			targets = (
+				FAA8A5FF0AE8621F0086CA36 /* Standard */,
+				FAA8A6070AE8621F0086CA36 /* Professional */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA8A5FC0AE8621F0086CA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8A7430AE862250086CA36 /* Color_Text_Display.h in Resources */,
+				FAA8A74B0AE862250086CA36 /* UInt8_Text_Display.h in Resources */,
+				FAA8A74D0AE862250086CA36 /* SInt8_Text_Display.h in Resources */,
+				FAA8A74F0AE862250086CA36 /* Percent_Text_Display.h in Resources */,
+				FAA8A7510AE862250086CA36 /* Hue_Text_Display.h in Resources */,
+				FAA8A7570AE862250086CA36 /* Transformed_Text_Display.h in Resources */,
+				FAA8A75D0AE862250086CA36 /* Custom_Track_Control.h in Resources */,
+				FAA8A75E0AE862250086CA36 /* Custom_Notify_Control.h in Resources */,
+				FAA8A7990AE862250086CA36 /* Palette_Display_Handler.h in Resources */,
+				FAA8A7A30AE862250086CA36 /* Libraries_UI.h in Resources */,
+				FAA8A7A40AE862250086CA36 /* Libraries_UI.h in Resources */,
+				FAA8A8140AE863F90086CA36 /* includes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8A6040AE8621F0086CA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8A69A0AE862200086CA36 /* Color_Text_Display.h in Resources */,
+				FAA8A6A20AE862200086CA36 /* UInt8_Text_Display.h in Resources */,
+				FAA8A6A40AE862200086CA36 /* SInt8_Text_Display.h in Resources */,
+				FAA8A6A60AE862200086CA36 /* Percent_Text_Display.h in Resources */,
+				FAA8A6A80AE862200086CA36 /* Hue_Text_Display.h in Resources */,
+				FAA8A6B10AE862200086CA36 /* Transformed_Text_Display.h in Resources */,
+				FAA8A6B70AE862200086CA36 /* Custom_Track_Control.h in Resources */,
+				FAA8A6B80AE862200086CA36 /* Custom_Notify_Control.h in Resources */,
+				FAA8A6FB0AE862200086CA36 /* Libraries_UI.h in Resources */,
+				FAA8A6FC0AE862200086CA36 /* Libraries_UI.h in Resources */,
+				FAA8A8150AE863F90086CA36 /* includes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		FAA8A5FE0AE8621F0086CA36 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8A7370AE862250086CA36 /* Composer.r in Rez */,
+				FAA8A73D0AE862250086CA36 /* Mac UI.rsrc in Rez */,
+				FAA8A7900AE862250086CA36 /* Mac UI common.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8A6060AE8621F0086CA36 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8A68F0AE862200086CA36 /* Composer.r in Rez */,
+				FAA8A6EA0AE862200086CA36 /* Mac UI common.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA8A5FB0AE8621F0086CA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8A7350AE862250086CA36 /* Composer.cpp in Sources */,
+				FAA8A73C0AE862250086CA36 /* Composer_UI.cpp in Sources */,
+				FAA8A73F0AE862250086CA36 /* Dialog_Runner.cpp in Sources */,
+				FAA8A7420AE862250086CA36 /* Control_Runner.cpp in Sources */,
+				FAA8A7460AE862250086CA36 /* ADM_Access.cpp in Sources */,
+				FAA8A7560AE862250086CA36 /* Raw_Text_Display.cpp in Sources */,
+				FAA8A7640AE862250086CA36 /* Simple_Color_Display.cpp in Sources */,
+				FAA8A7650AE862250086CA36 /* Custom_Draw_Control.cpp in Sources */,
+				FAA8A7660AE862250086CA36 /* Selected_Color.cpp in Sources */,
+				FAA8A7690AE862250086CA36 /* Radio_Button_Group.cpp in Sources */,
+				FAA8A76A0AE862250086CA36 /* Color_Plane_Selector.cpp in Sources */,
+				FAA8A76C0AE862250086CA36 /* Check_Box_Handler.cpp in Sources */,
+				FAA8A76F0AE862250086CA36 /* Color_Flag_Handler.cpp in Sources */,
+				FAA8A7730AE862250086CA36 /* G_World.cpp in Sources */,
+				FAA8A7890AE862250086CA36 /* Color_Selector.cpp in Sources */,
+				FAA8A7910AE862250086CA36 /* Warning_Color_Display.cpp in Sources */,
+				FAA8A7940AE862250086CA36 /* Split_Color_Display_Handler.cpp in Sources */,
+				FAA8A79A0AE862250086CA36 /* Palette_Display_Base.cpp in Sources */,
+				FAA8A79C0AE862250086CA36 /* Generate_Palette_Base.cpp in Sources */,
+				FAA8A79F0AE862250086CA36 /* Disclosure_Triangle.cpp in Sources */,
+				FAA8AB5A0AE950050086CA36 /* FastAlloc.cpp in Sources */,
+				FAA8AB5E0AE9502E0086CA36 /* MCColor.cpp in Sources */,
+				FAA8AB650AE9504E0086CA36 /* MCEditText.cpp in Sources */,
+				FAA8AB6C0AE950670086CA36 /* MCLicense.cpp in Sources */,
+				FAA8AB6D0AE950670086CA36 /* MCSystemRegistry.cpp in Sources */,
+				FAA8AB6E0AE950670086CA36 /* Run_About.cpp in Sources */,
+				FAA8AB6F0AE950670086CA36 /* MCRangeSelector.cpp in Sources */,
+				FAA8AB700AE950670086CA36 /* MCPrefs.cpp in Sources */,
+				FAA8AB7C0AE9509F0086CA36 /* SException.cpp in Sources */,
+				FAA8AB7D0AE9509F0086CA36 /* SpDebug.cpp in Sources */,
+				FAA8AB9A0AE952280086CA36 /* MCColorSwatch.cpp in Sources */,
+				FAA8AB9F0AE9523A0086CA36 /* MCSortFrame.cpp in Sources */,
+				FAA8ABA00AE9523A0086CA36 /* MCDualColorSwatch.cpp in Sources */,
+				FAA8ABA10AE9523A0086CA36 /* MCIcon.cpp in Sources */,
+				FAA8ABA60AE952700086CA36 /* Palette_Display_Handler.cpp in Sources */,
+				FAA8ABA90AE952A30086CA36 /* Selected_Color_Display.cpp in Sources */,
+				FAA8ABBB0AE9537A0086CA36 /* RGB_Selector.cpp in Sources */,
+				FAA8ABBC0AE9537A0086CA36 /* Hue_Slider_Handler.cpp in Sources */,
+				FAA8ABBD0AE9537A0086CA36 /* HSB_Selector.cpp in Sources */,
+				FAA8ABBE0AE9537A0086CA36 /* Quick_Colors_Handler.cpp in Sources */,
+				FAA8ABBF0AE9537A0086CA36 /* Lab_Selector.cpp in Sources */,
+				FAA8ABC00AE9537A0086CA36 /* HVC_Selector.cpp in Sources */,
+				FAA8ABD10AE953EB0086CA36 /* MCColorList.cpp in Sources */,
+				FAA8ABD40AE953EB0086CA36 /* MCColorSlider.cpp in Sources */,
+				FAA8ABD60AE953EB0086CA36 /* Custom_UI.cpp in Sources */,
+				FAA8ABD70AE953EB0086CA36 /* MCBookPopup.cpp in Sources */,
+				FAA8ABE50AE953FC0086CA36 /* MCColorbook.cpp in Sources */,
+				FAA8ABE60AE953FC0086CA36 /* MCColorLibraries.cpp in Sources */,
+				FAA8AC700AE9570A0086CA36 /* MCLib.cpp in Sources */,
+				FAA8AC710AE9570A0086CA36 /* HVCUtils.cpp in Sources */,
+				FAA8AC720AE9570A0086CA36 /* HVCSpace.cpp in Sources */,
+				FAA8AE530AE978E60086CA36 /* StandardMain.cpp in Sources */,
+				FAA8AE540AE978E60086CA36 /* PickerPlugin.cpp in Sources */,
+				FAA8AE550AE978E60086CA36 /* PIUtilities.cpp in Sources */,
+				FAA8AE560AE978E60086CA36 /* Plugin.cpp in Sources */,
+				FAA8AE570AE978E60086CA36 /* DialogUtilitiesMac.cpp in Sources */,
+				FAA8AE580AE978E60086CA36 /* PhotoshopSDK.cpp in Sources */,
+				FAA8AE590AE978E60086CA36 /* PIUNew.cpp in Sources */,
+				FAA8AE5A0AE978E60086CA36 /* PIUGet.cpp in Sources */,
+				FAA8AE660AE979500086CA36 /* PIUSuites.cpp in Sources */,
+				FAA8AE6B0AE9796A0086CA36 /* PIMacUI.cpp in Sources */,
+				FAA8AE760AE97A0F0086CA36 /* PropertyUtils.cpp in Sources */,
+				FAA8AE7D0AE97A920086CA36 /* rsa_memory.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8A6030AE8621F0086CA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8A68D0AE862200086CA36 /* Composer.cpp in Sources */,
+				FAA8A6940AE862200086CA36 /* Composer_UI.cpp in Sources */,
+				FAA8A6960AE862200086CA36 /* Dialog_Runner.cpp in Sources */,
+				FAA8A6990AE862200086CA36 /* Control_Runner.cpp in Sources */,
+				FAA8A69D0AE862200086CA36 /* ADM_Access.cpp in Sources */,
+				FAA8A6B00AE862200086CA36 /* Raw_Text_Display.cpp in Sources */,
+				FAA8A6BE0AE862200086CA36 /* Simple_Color_Display.cpp in Sources */,
+				FAA8A6BF0AE862200086CA36 /* Custom_Draw_Control.cpp in Sources */,
+				FAA8A6C00AE862200086CA36 /* Selected_Color.cpp in Sources */,
+				FAA8A6C30AE862200086CA36 /* Radio_Button_Group.cpp in Sources */,
+				FAA8A6C40AE862200086CA36 /* Color_Plane_Selector.cpp in Sources */,
+				FAA8A6C60AE862200086CA36 /* Check_Box_Handler.cpp in Sources */,
+				FAA8A6C90AE862200086CA36 /* Color_Flag_Handler.cpp in Sources */,
+				FAA8A6CD0AE862200086CA36 /* G_World.cpp in Sources */,
+				FAA8A6E30AE862200086CA36 /* Color_Selector.cpp in Sources */,
+				FAA8A6EB0AE862200086CA36 /* Warning_Color_Display.cpp in Sources */,
+				FAA8A6EE0AE862200086CA36 /* Split_Color_Display_Handler.cpp in Sources */,
+				FAA8A6F30AE862200086CA36 /* Palette_Display_Base.cpp in Sources */,
+				FAA8A6F40AE862200086CA36 /* Generate_Palette_Base.cpp in Sources */,
+				FAA8A6F70AE862200086CA36 /* Disclosure_Triangle.cpp in Sources */,
+				FAA8AB5C0AE950050086CA36 /* FastAlloc.cpp in Sources */,
+				FAA8AB5F0AE9502E0086CA36 /* MCColor.cpp in Sources */,
+				FAA8AB660AE9504E0086CA36 /* MCEditText.cpp in Sources */,
+				FAA8AB710AE950670086CA36 /* MCLicense.cpp in Sources */,
+				FAA8AB720AE950670086CA36 /* MCSystemRegistry.cpp in Sources */,
+				FAA8AB730AE950670086CA36 /* Run_About.cpp in Sources */,
+				FAA8AB740AE950670086CA36 /* MCRangeSelector.cpp in Sources */,
+				FAA8AB750AE950670086CA36 /* MCPrefs.cpp in Sources */,
+				FAA8AB7F0AE9509F0086CA36 /* SException.cpp in Sources */,
+				FAA8AB800AE9509F0086CA36 /* SpDebug.cpp in Sources */,
+				FAA8AB9B0AE952280086CA36 /* MCColorSwatch.cpp in Sources */,
+				FAA8ABA20AE9523A0086CA36 /* MCSortFrame.cpp in Sources */,
+				FAA8ABA30AE9523A0086CA36 /* MCDualColorSwatch.cpp in Sources */,
+				FAA8ABA40AE9523A0086CA36 /* MCIcon.cpp in Sources */,
+				FAA8ABA70AE952700086CA36 /* Palette_Display_Handler.cpp in Sources */,
+				FAA8ABAA0AE952A30086CA36 /* Selected_Color_Display.cpp in Sources */,
+				FAA8ABC10AE9537A0086CA36 /* RGB_Selector.cpp in Sources */,
+				FAA8ABC20AE9537A0086CA36 /* Hue_Slider_Handler.cpp in Sources */,
+				FAA8ABC30AE9537A0086CA36 /* HSB_Selector.cpp in Sources */,
+				FAA8ABC40AE9537A0086CA36 /* Quick_Colors_Handler.cpp in Sources */,
+				FAA8ABC50AE9537A0086CA36 /* Lab_Selector.cpp in Sources */,
+				FAA8ABC60AE9537A0086CA36 /* HVC_Selector.cpp in Sources */,
+				FAA8ABD90AE953EB0086CA36 /* MCColorList.cpp in Sources */,
+				FAA8ABDC0AE953EB0086CA36 /* MCColorSlider.cpp in Sources */,
+				FAA8ABDE0AE953EB0086CA36 /* Custom_UI.cpp in Sources */,
+				FAA8ABDF0AE953EB0086CA36 /* MCBookPopup.cpp in Sources */,
+				FAA8ABE90AE953FC0086CA36 /* MCColorbook.cpp in Sources */,
+				FAA8ABEA0AE953FC0086CA36 /* MCColorLibraries.cpp in Sources */,
+				FAA8AC750AE9570A0086CA36 /* MCLib.cpp in Sources */,
+				FAA8AC760AE9570A0086CA36 /* HVCUtils.cpp in Sources */,
+				FAA8AC770AE9570A0086CA36 /* HVCSpace.cpp in Sources */,
+				FAA8AE5B0AE978E60086CA36 /* StandardMain.cpp in Sources */,
+				FAA8AE5C0AE978E60086CA36 /* PickerPlugin.cpp in Sources */,
+				FAA8AE5D0AE978E60086CA36 /* PIUtilities.cpp in Sources */,
+				FAA8AE5E0AE978E60086CA36 /* Plugin.cpp in Sources */,
+				FAA8AE5F0AE978E60086CA36 /* DialogUtilitiesMac.cpp in Sources */,
+				FAA8AE600AE978E60086CA36 /* PhotoshopSDK.cpp in Sources */,
+				FAA8AE610AE978E60086CA36 /* PIUNew.cpp in Sources */,
+				FAA8AE620AE978E60086CA36 /* PIUGet.cpp in Sources */,
+				FAA8AE670AE979500086CA36 /* PIUSuites.cpp in Sources */,
+				FAA8AE6D0AE9796A0086CA36 /* PIMacUI.cpp in Sources */,
+				FAA8AE770AE97A0F0086CA36 /* PropertyUtils.cpp in Sources */,
+				FAA8AE7E0AE97A920086CA36 /* rsa_memory.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAA8A5F70AE8621F0086CA36 /* main config */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_PREFIX_HEADER = ./HVCComposer.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				REZ_SEARCH_PATHS = (
+					../common/,
+					../common/Composer/,
+					../../Support/,
+					../../MCLib/,
+					../../MCLib/Lib/,
+					../../Adobe_PS_CS_SDK/samplecode/common/includes/,
+					../../Adobe_PS_CS_SDK/samplecode/common/resources/,
+					../../Adobe_PS_CS_SDK/photoshopapi/pica_sp/,
+					../../Adobe_PS_CS_SDK/photoshopapi/resources/,
+					../../Adobe_PS_CS_SDK/photoshopapi/adm/,
+					../../Adobe_PS_CS_SDK/photoshopapi/adm/legacy/,
+					../../Adobe_PS_CS_SDK/photoshopapi/photoshop/,
+					../../Adobe_PS_CS_SDK/photoshopapi/general/,
+				);
+				REZ_SHOW_DEBUG_OUTPUT = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				USER_HEADER_SEARCH_PATHS = "../common/ ../common/Composer/ ../../Support/ ../../MCLib/ ../../MCLib/Lib/ ../../Adobe_PS_CS_SDK/samplecode/common/includes/ ../../Adobe_PS_CS_SDK/photoshopapi/pica_sp/ ../../Adobe_PS_CS_SDK/photoshopapi/adm/ ../../Adobe_PS_CS_SDK/photoshopapi/adm/legacy/ ../../Adobe_PS_CS_SDK/photoshopapi/photoshop/ ../../Adobe_PS_CS_SDK/photoshopapi/general/ ";
+			};
+			name = "main config";
+		};
+		FAA8A60A0AE8621F0086CA36 /* main config */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				EXECUTABLE_EXTENSION = 8bc;
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_CPU = G3;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "PROVERSION=0";
+				GCC_REUSE_STRINGS = YES;
+				GCC_SHORT_ENUMS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/Headers/FlatCarbon;
+				OTHER_CFLAGS = (
+					"-fno-inline",
+					"-fno-inline-functions",
+				);
+				OTHER_LDFLAGS = (
+					"-multiply_defined",
+					warning,
+				);
+				PRODUCT_NAME = "HVC Color Composer - Standard";
+				REZ_SCRIPT_TYPE = Roman;
+				REZ_SUPPRESS_REDECLARED_RESOURCE_TYPE_WARNINGS = NO;
+			};
+			name = "main config";
+		};
+		FAA8A60C0AE8621F0086CA36 /* main config */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				EXECUTABLE_EXTENSION = 8bc;
+				GCC_ALTIVEC_EXTENSIONS = NO;
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_CPU = G3;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "PROVERSION=1";
+				GCC_REUSE_STRINGS = YES;
+				GCC_SHORT_ENUMS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/Headers/FlatCarbon;
+				OTHER_CFLAGS = (
+					"-fno-inline",
+					"-fno-inline-functions",
+				);
+				OTHER_LDFLAGS = (
+					"-multiply_defined",
+					warning,
+				);
+				PRODUCT_NAME = "HVC Color Composer - Professional";
+				REZ_SCRIPT_TYPE = Roman;
+				REZ_SUPPRESS_REDECLARED_RESOURCE_TYPE_WARNINGS = NO;
+			};
+			name = "main config";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA8A5F60AE8621F0086CA36 /* Build configuration list for PBXProject "HVCComposer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA8A5F70AE8621F0086CA36 /* main config */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = "main config";
+		};
+		FAA8A6090AE8621F0086CA36 /* Build configuration list for PBXNativeTarget "Standard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA8A60A0AE8621F0086CA36 /* main config */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "main config";
+		};
+		FAA8A60B0AE8621F0086CA36 /* Build configuration list for PBXNativeTarget "Professional" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA8A60C0AE8621F0086CA36 /* main config */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "main config";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA8A5F50AE8621F0086CA36 /* Project object */;
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?codewarrior exportversion="1.0" ideversion="4.2" ?>
+
+<!DOCTYPE EXPORTEDPANEL [
+<!ELEMENT EXPORTEDPANEL (NAME, (SETTINGLIST|VALUE))>
+<!ELEMENT SETTINGLIST (SETTING+)>
+<!ELEMENT SETTING (NAME?, (VALUE|(SETTING+)))>
+<!ELEMENT NAME (#PCDATA)>
+<!ELEMENT VALUE (#PCDATA)>
+]>
+
+<EXPORTEDPANEL>
+    <NAME>Access Paths</NAME>
+    <SETTINGLIST>
+        <SETTING><NAME>AlwaysSearchUserPaths</NAME><VALUE>false</VALUE></SETTING>
+        <SETTING><NAME>InterpretDOSAndUnixPaths</NAME><VALUE>false</VALUE></SETTING>
+        <SETTING><NAME>RequireFrameworkStyleIncludes</NAME><VALUE>false</VALUE></SETTING>
+        <SETTING><NAME>UserSearchPaths</NAME>
+            <SETTING>
+                <SETTING><NAME>SearchPath</NAME>
+                    <SETTING><NAME>Path</NAME><VALUE>:</VALUE></SETTING>
+                    <SETTING><NAME>PathFormat</NAME><VALUE>MacOS</VALUE></SETTING>
+                    <SETTING><NAME>PathRoot</NAME><VALUE>Project</VALUE></SETTING>
+                </SETTING>
+                <SETTING><NAME>Recursive</NAME><VALUE>true</VALUE></SETTING>
+                <SETTING><NAME>FrameworkPath</NAME><VALUE>false</VALUE></SETTING>
+                <SETTING><NAME>HostFlags</NAME><VALUE>All</VALUE></SETTING>
+            </SETTING>
+            <SETTING>
+                <SETTING><NAME>SearchPath</NAME>
+                    <SETTING><NAME>Path</NAME><VALUE>::common:(Professional):</VALUE></SETTING>
+                    <SETTING><NAME>PathFormat</NAME><VALUE>MacOS</VALUE></SETTING>
+                    <SETTING><NAME>PathRoot</NAME><VALUE>Project</VALUE></SETTING>
+                </SETTING>
+                <SETTING><NAME>Recursive</NAME><VALUE>true</VALUE></SETTING>
+                <SETTING><NAME>FrameworkPath</NAME><VALUE>false</VALUE></SETTING>
+                <SETTING><NAME>HostFlags</NAME><VALUE>All</VALUE></SETTING>
+            </SETTING>
+            <SETTING>
+                <SETTING><NAME>SearchPath</NAME>
+                    <SETTING><NAME>Path</NAME><VALUE>::</VALUE></SETTING>
+                    <SETTING><NAME>PathFormat</NAME><VALUE>MacOS</VALUE></SETTING>
+                    <SETTING><NAME>PathRoot</NAME><VALUE>Project</VALUE></SETTING>
+                </SETTING>
+                <SETTING><NAME>Recursive</NAME><VALUE>true</VALUE></SETTING>
+                <SETTING><NAME>FrameworkPath</NAME><VALUE>false</VALUE></SETTING>
+                <SETTING><NAME>HostFlags</NAME><VALUE>All</VALUE></SETTING>
+            </SETTING>
+        </SETTING>
+        <SETTING><NAME>SystemSearchPaths</NAME>
+            <SETTING>
+                <SETTING><NAME>SearchPath</NAME>
+                    <SETTING><NAME>Path</NAME><VALUE>::samplecode:common:</VALUE></SETTING>
+                    <SETTING><NAME>PathFormat</NAME><VALUE>MacOS</VALUE></SETTING>
+                    <SETTING><NAME>PathRoot</NAME><VALUE>Photoshop API</VALUE></SETTING>
+                </SETTING>
+                <SETTING><NAME>Recursive</NAME><VALUE>true</VALUE></SETTING>
+                <SETTING><NAME>FrameworkPath</NAME><VALUE>false</VALUE></SETTING>
+                <SETTING><NAME>HostFlags</NAME><VALUE>All</VALUE></SETTING>
+            </SETTING>
+            <SETTING>
+                <SETTING><NAME>SearchPath</NAME>
+                    <SETTING><NAME>Path</NAME><VALUE>:</VALUE></SETTING>
+                    <SETTING><NAME>PathFormat</NAME><VALUE>MacOS</VALUE></SETTING>
+                    <SETTING><NAME>PathRoot</NAME><VALUE>Photoshop API</VALUE></SETTING>
+                </SETTING>
+                <SETTING><NAME>Recursive</NAME><VALUE>true</VALUE></SETTING>
+                <SETTING><NAME>FrameworkPath</NAME><VALUE>false</VALUE></SETTING>
+                <SETTING><NAME>HostFlags</NAME><VALUE>All</VALUE></SETTING>
+            </SETTING>
+            <SETTING>
+                <SETTING><NAME>SearchPath</NAME>
+                    <SETTING><NAME>Path</NAME><VALUE>:GNU Multiple Precision Library:gmp-1.3.2:</VALUE></SETTING>
+                    <SETTING><NAME>PathFormat</NAME><VALUE>MacOS</VALUE></SETTING>
+                    <SETTING><NAME>PathRoot</NAME><VALUE>Encryption</VALUE></SETTING>
+                </SETTING>
+                <SETTING><NAME>Recursive</NAME><VALUE>true</VALUE></SETTING>
+                <SETTING><NAME>FrameworkPath</NAME><VALUE>false</VALUE></SETTING>
+                <SETTING><NAME>HostFlags</NAME><VALUE>All</VALUE></SETTING>
+            </SETTING>
+            <SETTING>
+                <SETTING><NAME>SearchPath</NAME>
+                    <SETTING><NAME>Path</NAME><VALUE>:Carbon Support:</VALUE></SETTING>
+                    <SETTING><NAME>PathFormat</NAME><VALUE>MacOS</VALUE></SETTING>
+                    <SETTING><NAME>PathRoot</NAME><VALUE>CarbonLib SDK</VALUE></SETTING>
+                </SETTING>
+                <SETTING><NAME>Recursive</NAME><VALUE>true</VALUE></SETTING>
+                <SETTING><NAME>FrameworkPath</NAME><VALUE>false</VALUE></SETTING>
+                <SETTING><NAME>HostFlags</NAME><VALUE>All</VALUE></SETTING>
+            </SETTING>
+            <SETTING>
+                <SETTING><NAME>SearchPath</NAME>
+                    <SETTING><NAME>Path</NAME><VALUE>:MacOS Support:</VALUE></SETTING>
+                    <SETTING><NAME>PathFormat</NAME><VALUE>MacOS</VALUE></SETTING>
+                    <SETTING><NAME>PathRoot</NAME><VALUE>CodeWarrior</VALUE></SETTING>
+                </SETTING>
+                <SETTING><NAME>Recursive</NAME><VALUE>true</VALUE></SETTING>
+                <SETTING><NAME>FrameworkPath</NAME><VALUE>false</VALUE></SETTING>
+                <SETTING><NAME>HostFlags</NAME><VALUE>All</VALUE></SETTING>
+            </SETTING>
+            <SETTING>
+                <SETTING><NAME>SearchPath</NAME>
+                    <SETTING><NAME>Path</NAME><VALUE>:MSL:</VALUE></SETTING>
+                    <SETTING><NAME>PathFormat</NAME><VALUE>MacOS</VALUE></SETTING>
+                    <SETTING><NAME>PathRoot</NAME><VALUE>CodeWarrior</VALUE></SETTING>
+                </SETTING>
+                <SETTING><NAME>Recursive</NAME><VALUE>true</VALUE></SETTING>
+                <SETTING><NAME>FrameworkPath</NAME><VALUE>false</VALUE></SETTING>
+                <SETTING><NAME>HostFlags</NAME><VALUE>All</VALUE></SETTING>
+            </SETTING>
+        </SETTING>
+    </SETTINGLIST>
+</EXPORTEDPANEL>

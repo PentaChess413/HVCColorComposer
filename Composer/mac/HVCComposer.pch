@@ -1,0 +1,39 @@
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Copyright 2005-2006 Foinc.  All rights reserved.  $Revision: 1.3 $
+//      This material is the confidential trade secret and proprietary
+//      information of Foinc.  It may not be reproduced, used,
+//      sold or transferred to any third party without the prior written
+//      consent of Foinc.  All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+/*	History:
+
+19oct06	alx	Created
+
+*/
+
+#define MAC_ENV 1
+
+#ifndef macintosh
+#define macintosh 1
+#endif
+
+#define Macintosh 1
+//#define MSWindows 0
+
+#define MACINTOSH
+#define TARGET_CARBON 1
+
+// !!@ temporary code !!@ figure out the debug symbols...or add them to the command line for gcc
+#define XDEBUG 1
+
+#define PLUGIN_SDK_BUILD
+
+#if __MACH__
+#include <Carbon.h>
+#endif
+
+// EOF

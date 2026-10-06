@@ -1,0 +1,5 @@
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 13.10.3077 for 80x86
+Copyright (C) Microsoft Corporation 1984-2002. All rights reserved.
+
+Composer.r
+Composer.r(1) : warning C4067: unexpected tokens following preprocessor directive - expected a newline

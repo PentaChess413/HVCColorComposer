@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composer", "Composer.vcproj", "{251AECAD-50A0-4AC9-A848-E47CD7B8892B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug Pro = Debug Pro
+		Debug Standard = Debug Standard
+		Release Pro = Release Pro
+		Release Standard = Release Standard
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{251AECAD-50A0-4AC9-A848-E47CD7B8892B}.Debug Pro.ActiveCfg = Debug Pro|Win32
+		{251AECAD-50A0-4AC9-A848-E47CD7B8892B}.Debug Pro.Build.0 = Debug Pro|Win32
+		{251AECAD-50A0-4AC9-A848-E47CD7B8892B}.Debug Standard.ActiveCfg = Debug Standard|Win32
+		{251AECAD-50A0-4AC9-A848-E47CD7B8892B}.Debug Standard.Build.0 = Debug Standard|Win32
+		{251AECAD-50A0-4AC9-A848-E47CD7B8892B}.Release Pro.ActiveCfg = Release Pro|Win32
+		{251AECAD-50A0-4AC9-A848-E47CD7B8892B}.Release Pro.Build.0 = Release Pro|Win32
+		{251AECAD-50A0-4AC9-A848-E47CD7B8892B}.Release Standard.ActiveCfg = Release Standard|Win32
+		{251AECAD-50A0-4AC9-A848-E47CD7B8892B}.Release Standard.Build.0 = Release Standard|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
