@@ -13,7 +13,7 @@ Clone the repo and open it in VS2003. Install the Adobe Photoshop CS1 SDK and co
 
 # Credits
 * This software was distributed by Master Colors LLC.
-* The Software Development Kit is Adobe Photoshop's CS1 SDK, which is unlisted in Adobe's website. You will have to go to this Adobe link instead: [Here](download.macromedia.com/pub/developer/photoshop/sdk/PhotoshopCSSDKWin.zip) for the Windows version. [Here](download.macromedia.com/pub/developer/photoshop/sdk/PhotoshopCSSDKMac.hqx) for the Mac OS X version (requires BinHex).
+* The Software Development Kit is Adobe Photoshop's CS1 SDK, which is unlisted in Adobe's website. You will have to go to this Adobe link instead: [Here](https://download.macromedia.com/pub/developer/photoshop/sdk/PhotoshopCSSDKWin.zip) for the Windows version. [Here](https://download.macromedia.com/pub/developer/photoshop/sdk/PhotoshopCSSDKMac.hqx) for the Mac OS X version (requires BinHex).
 * The code release would not have been possible without Alex Lelièvre and Andrew Hussie's help!
 * The GNU Mathematical Precision library is included, but not used.
 * Some proprietary code was excised at the copyright owners' request and replaced with mine, namely:
